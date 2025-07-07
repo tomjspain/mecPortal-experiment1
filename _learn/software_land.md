@@ -29,7 +29,7 @@ image: assets/images/modelPlane.jpg
 				</header>
 				<p> Learn how to use Model Estimated Controls when you have a survival outcome </p>
 				<ul class="actions">
-					<li><a href="software_psc.html" class="button">Learn more</a></li>
+					<li><a href="https://richjjackson.github.io/psc/" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
@@ -42,9 +42,9 @@ image: assets/images/modelPlane.jpg
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3> pscExtra.R some extra tools to help with MECs! </h3>
+					<h3> pscDesign.R - Design clinical trials with Personalised Syntehtic Controls! </h3>
 				</header>
-				<p> Learn how to use Model Estimated Controls when you have a binary/continuous outcome </p>
+				<p> Learn how to use Personalised Synthetic Controls can be used to help design clinical trials </p>
 				<ul class="actions">
 					<li><a href="software_pscExtra.html" class="button">Learn more</a></li>
 				</ul>
