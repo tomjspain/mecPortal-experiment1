@@ -3,7 +3,7 @@ layout: model
 title: Gemcitabine OS
 image: assets/images/pancStock.png
 area: PDAC
-description:  A model to describe overall survival in patietns with aHCC
+description:  A model to describe overall survival in patients with aHCC
 ---
 
 
@@ -86,13 +86,13 @@ centers in Europe, Australasia, Japan, and Canada
 <h2 id="data">Data</h2>
 
 <p> Data considered for inclusion in the model were observed from the baseline
-case report forms of the ESPAC-3 study and included T stage, N stage, Resection
-Margin Status, Local Invasion, WHO status, Tumor Grade (Differentiation), Tumour
-Size, pre-operative CA19.9 and post-operative CA19.9</p>
+case report forms of the ESPAC-3 study and included Resection
+Margin Status, Lymph Nodes, Local Invasion, WHO status, Tumor Grade (Differentiation), Tumour
+Size, Diabetes status and post-operative CA19.9</p>
 
 
-<p> The dataset included 359 patients of whom 309 (86%) observed an event (died). 
-Median Overall Survival (95% CI) was 23.2 (21.1 - 25.8) months.
+<p> The dataset included 339 patients of whom 267 (79%) observed an event (died). 
+Median Overall Survival (95% CI) was 22.8 (21.2 - 27.2) months.
 
 <div class="row 200%">
 	
@@ -101,7 +101,7 @@ Median Overall Survival (95% CI) was 23.2 (21.1 - 25.8) months.
   <!-- Table -->
 		<h3>Model Covariates</h3>
 
-    <p> The covariates selected for inclusion in the model were T stage, Tumour 
+    <p> The covariates selected for inclusion in the model were Resection Margin, Tumour 
     Grade, Lymph Nodes and (log) CA19.9.
     </p>
     
@@ -111,57 +111,53 @@ Median Overall Survival (95% CI) was 23.2 (21.1 - 25.8) months.
  <thead>
   <tr>
    <th style="text-align:left;"> **Characteristic** </th>
-   <th style="text-align:left;"> **N = 359** </th>
+   <th style="text-align:left;"> **N = 339** </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> t </td>
+   <td style="text-align:left;"> Resec </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> 2 </td>
-   <td style="text-align:left;"> 27 (7.5%) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 3 </td>
-   <td style="text-align:left;"> 78 (22%) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 4 </td>
-   <td style="text-align:left;"> 254 (71%) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> grade </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> 206 (61%) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> 1 </td>
-   <td style="text-align:left;"> 53 (15%) </td>
+   <td style="text-align:left;"> 133 (39%) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Diff status </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> 85 (25%) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 1 </td>
+   <td style="text-align:left;"> 214 (63%) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> 2 </td>
-   <td style="text-align:left;"> 223 (62%) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 3 </td>
-   <td style="text-align:left;"> 83 (23%) </td>
+   <td style="text-align:left;"> 40 (12%) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> nodes </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> 1 </td>
-   <td style="text-align:left;"> 105 (29%) </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> 97 (29%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> 2 </td>
-   <td style="text-align:left;"> 254 (71%) </td>
+   <td style="text-align:left;"> 1 </td>
+   <td style="text-align:left;"> 242 (71%) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> lca199 </td>
-   <td style="text-align:left;"> 3.33 (2.40, 4.26) </td>
+   <td style="text-align:left;"> 3.04 (2.30, 4.14) </td>
   </tr>
 </tbody>
 </table>
@@ -177,7 +173,7 @@ Median Overall Survival (95% CI) was 23.2 (21.1 - 25.8) months.
   
   <div class="6u 12u$(medium)">
     <!-- Image -->
-    <span class="image fit"><img src="{% link assets/images/e3_data.png %}" alt="" /></span>
+    <span class="image fit"><img src="{% link assets/images/e3_gem_ka.png %}" alt="" /></span>
   </div>
      <!-- End Image -->
   </div>
@@ -197,7 +193,7 @@ Median Overall Survival (95% CI) was 23.2 (21.1 - 25.8) months.
 <h1 id="data"> Model </h1>
 
 <p> The model consturcuted was a flexible parametric survival model using a 
-spline function to model the underlying cumulative hazard function.  Three 
+spline function to model the underlying cumulative hazard function.  Five 
 internal knots were chosen which gave sufficient flexibility.
 </p>
 
@@ -246,58 +242,63 @@ was constructed and single terms removed in an itterative fashion.  </p>
 <tbody>
   <tr>
    <td style="text-align:left;"> $/gamma$ </td>
-   <td style="text-align:left;"> -10.18 (1.08) </td>
+   <td style="text-align:left;"> -11.38 (1.56) </td>
    <td style="text-align:left;"> 0 (0 - 0) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> gamma1 </td>
-   <td style="text-align:left;"> 2.89 (0.52) </td>
+   <td style="text-align:left;"> 3.84 (0.79) </td>
    <td style="text-align:left;"> 17.94 (6.51 - 49.43) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> gamma2 </td>
-   <td style="text-align:left;"> 0.33 (0.49) </td>
+   <td style="text-align:left;"> 1.29 (2.22) </td>
    <td style="text-align:left;"> 1.39 (0.54 - 3.6) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> gamma3 </td>
-   <td style="text-align:left;"> -0.58 (0.8) </td>
+   <td style="text-align:left;"> -1.32 (4.0) </td>
    <td style="text-align:left;"> 0.56 (0.12 - 2.66) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> gamma4 </td>
-   <td style="text-align:left;"> 0.55 (0.43) </td>
+   <td style="text-align:left;"> 1.12 (3.55) </td>
    <td style="text-align:left;"> 1.74 (0.74 - 4.07) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> t3 </td>
-   <td style="text-align:left;"> 0.56 (0.27) </td>
+   <td style="text-align:left;"> gamma5 </td>
+   <td style="text-align:left;"> -0.89 (2.22) </td>
    <td style="text-align:left;"> 1.75 (1.04 - 2.95) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> t4 </td>
-   <td style="text-align:left;"> 0.42 (0.25) </td>
+   <td style="text-align:left;"> gamma6 </td>
+   <td style="text-align:left;"> 0.34 (0.81) </td>
    <td style="text-align:left;"> 1.52 (0.94 - 2.46) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> grade2 </td>
-   <td style="text-align:left;"> 0.41 (0.18) </td>
-   <td style="text-align:left;"> 1.51 (1.07 - 2.13) </td>
+   <td style="text-align:left;"> LymphN1 </td>
+   <td style="text-align:left;"> 0.49 (0.15) </td>
+   <td style="text-align:left;"> 1.63 (1.21 - 2.19) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> grade3 </td>
-   <td style="text-align:left;"> 0.73 (0.2) </td>
-   <td style="text-align:left;"> 2.08 (1.41 - 3.07) </td>
+   <td style="text-align:left;"> ResecM </td>
+   <td style="text-align:left;"> 0.18 (0.13) </td>
+   <td style="text-align:left;"> 1.20 (0.94 - 1.53) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> nodes2 </td>
-   <td style="text-align:left;"> 0.49 (0.14) </td>
-   <td style="text-align:left;"> 1.63 (1.24 - 2.13) </td>
+   <td style="text-align:left;"> Diff status1 </td>
+   <td style="text-align:left;"> -0.42 (0.14) </td>
+   <td style="text-align:left;"> 0.66 (0.50 - 0.87) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Diff status2 </td>
+   <td style="text-align:left;"> -0.59 (0.22) </td>
+   <td style="text-align:left;"> 0.55 (0.36 - 0.86) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> lca199 </td>
-   <td style="text-align:left;"> 0.21 (0.04) </td>
-   <td style="text-align:left;"> 1.23 (1.14 - 1.33) </td>
+   <td style="text-align:left;"> 0.27 (0.04) </td>
+   <td style="text-align:left;"> 1.31 (1.21 - 1.41) </td>
   </tr>
 </tbody>
 </table>
@@ -340,14 +341,14 @@ training dataset.
 
 <h3> Validation Details </h3>
 <div class="box">
-	<p> Validation are reported in terms of Calibration and Discrimination.  
-	Calibration is reported int erms of the Mallows C-Statistic and by regressing 
+	<p> Validation are reported in terms of Calibration, Discrimination and Somers' D.  
+	Calibration is reported in terms of the Mallows C-Statistic and by regressing 
 	the fitted linear predictor against the outcome (Slope).
 	
-	Discrimination is evaluated by categroising patietns into 4 risk groups.  
-	Risk groups are deteimented by the quartiles of the linear predictor and 
-	compared grapically and by evaluating the relative risk by fitting a 
-	univariable Cox Proportional Hazards Models
+	Discrimination is evaluated by categorising patients into 4 risk groups.  
+	Risk groups are determined by the quartiles of the linear predictor and 
+	compared graphically and by evaluating the relative risk by fitting a 
+	univariable Cox Proportional Hazards Models.
 	</p>
 </div>
 
@@ -370,11 +371,15 @@ training dataset.
 <tbody>
   <tr>
    <td style="text-align:left;"> C-Statistic </td>
-   <td style="text-align:left;"> 0.63 (0.017) </td>
+   <td style="text-align:left;"> 0.65 (0.018) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Slope </td>
-   <td style="text-align:left;"> 0.996 (0.125) </td>
+   <td style="text-align:left;"> 0.999 (0.11) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Somers' D </td>
+   <td style="text-align:left;"> 0.33 </td>
   </tr>
 </tbody>
 </table>
@@ -399,18 +404,18 @@ training dataset.
       </tr>
       <tr>
        <td style="text-align:left;"> Risk Group 2 </td>
-       <td style="text-align:left;"> 0.532 (0.194) </td>
-       <td style="text-align:left;"> 1.702 (1.163, 2.492) </td>
+       <td style="text-align:left;"> 0.331 (0.191) </td>
+       <td style="text-align:left;"> 1.393 (0.957, 2.027) </td>
       </tr>
       <tr>
        <td style="text-align:left;"> Risk Group 3 </td>
-       <td style="text-align:left;"> 1.002 (0.194) </td>
-       <td style="text-align:left;"> 2.724 (1.864, 3.982) </td>
+       <td style="text-align:left;"> 0.778 (0.185) </td>
+       <td style="text-align:left;"> 2.177 (1.515, 3.128) </td>
       </tr>
       <tr>
        <td style="text-align:left;"> Risk Group 4 </td>
-       <td style="text-align:left;"> 1.628 (0.223) </td>
-       <td style="text-align:left;"> 5.094 (3.292, 7.887) </td>
+       <td style="text-align:left;"> 1.444 (0.185) </td>
+       <td style="text-align:left;"> 4.239 (2.947, 6.096) </td>
       </tr>
     </tbody>
     </table>
@@ -425,7 +430,7 @@ training dataset.
 
   Kaplan Meier plot to show survival estimates within each of the 4 risk groups
 
-  <span class="image fit"><img src="{% link assets/images/e3_gem_discr.png %}" alt="" /></span>
+  <span class="image fit"><img src="{% link assets/images/e3_gem_discrim_ka.png %}" alt="" /></span>
 
 
    </div>
