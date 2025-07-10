@@ -23,7 +23,7 @@ description:  A model to describe overall survival in patients with aHCC
 <p>
 Data were taken from the European Study group for PAncreatic Cancer (ESPAC) 3 
 Study - A randomised phase III study to investigate the role of chemotherapy in 
-patients following surgery for Pancreatic Ductal Adenocarcinoma.  Patient were
+patients following surgery for Pancreatic Ductal Adenocarcinoma.  Patients were
 randomised post surgery.  Patients were recruited from 159 pancreatic cancer 
 centers in Europe, Australasia, Japan, and Canada
 </p>
@@ -194,7 +194,8 @@ Median Overall Survival (95% CI) was 22.8 (21.2 - 27.2) months.
 
 <p> The model consturcuted was a flexible parametric survival model using a 
 spline function to model the underlying cumulative hazard function.  Five 
-internal knots were chosen which gave sufficient flexibility.
+internal knots were chosen which gave sufficient flexibility. The number of 
+knots was chosen based on best log-likelihood.
 </p>
 
 <div class="row 200%">
@@ -241,39 +242,39 @@ was constructed and single terms removed in an itterative fashion.  </p>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> $/gamma$ </td>
+   <td style="text-align:left;"> &gamma;0 </td>
    <td style="text-align:left;"> -11.38 (1.56) </td>
    <td style="text-align:left;"> 0 (0 - 0) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> gamma1 </td>
+   <td style="text-align:left;"> &gamma;1 </td>
    <td style="text-align:left;"> 3.84 (0.79) </td>
-   <td style="text-align:left;"> 17.94 (6.51 - 49.43) </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> gamma2 </td>
+   <td style="text-align:left;"> &gamma;2 </td>
    <td style="text-align:left;"> 1.29 (2.22) </td>
-   <td style="text-align:left;"> 1.39 (0.54 - 3.6) </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> gamma3 </td>
+   <td style="text-align:left;"> &gamma;3 </td>
    <td style="text-align:left;"> -1.32 (4.0) </td>
-   <td style="text-align:left;"> 0.56 (0.12 - 2.66) </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> gamma4 </td>
+   <td style="text-align:left;"> &gamma;4 </td>
    <td style="text-align:left;"> 1.12 (3.55) </td>
-   <td style="text-align:left;"> 1.74 (0.74 - 4.07) </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> gamma5 </td>
+   <td style="text-align:left;"> &gamma;5 </td>
    <td style="text-align:left;"> -0.89 (2.22) </td>
-   <td style="text-align:left;"> 1.75 (1.04 - 2.95) </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> gamma6 </td>
+   <td style="text-align:left;"> &gamma;6 </td>
    <td style="text-align:left;"> 0.34 (0.81) </td>
-   <td style="text-align:left;"> 1.52 (0.94 - 2.46) </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> LymphN1 </td>
