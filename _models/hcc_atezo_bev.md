@@ -21,7 +21,9 @@ description:  A model to describe overall survival in patients with aHCC
 
 <h2>Setting </h2>
 <p>
-DESCRIPTION
+Data were taken from the BRISK-FL study- a randomised phase III study to 
+compare the overall survival of brivanib versus sorafenib in patients
+with advanced HCC (aHCC).
 </p>
 
 <h2> Estimand </h2>
@@ -31,21 +33,22 @@ DESCRIPTION
 	  <div class="6u 12u$(medium)">
 	    <div class="box">
   		  <h3> Patients </h3>
-  		<p> PATIENT DETAILS </p>
+  		<p> Patients were eligible if theyhad not received any prior
+  		systemic therapy for aHCC. </p>
   	  </div>	
 	  </div>
 	  
 	  <div class="3u 12u$(medium)">
 		  <div class="box">
 		  <h3> Intervention </h3>
-		  <p> INTERVENTION DETAILS </p>
+		  <p> Patients received brivanib as 800mg orally every day. DETAILS </p>
 		  </div>	
 	   </div>
 	  
 	  <div class="3u$ 12u$(medium)">
 		  <div class="box">
 		  <h3> Outcome </h3>
-		  <p> OUTCOME DETAILS </p>
+		  <p> Outcome details </p>
 		  </div>	
   </div>
 </div>
