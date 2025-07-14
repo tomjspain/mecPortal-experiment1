@@ -3,7 +3,7 @@ layout: model
 title: Atezo Bev OS
 image: assets/images/hcc.jpg
 area: HCC
-description:  A model to describe overall survival in patietns with aHCC
+description:  A model to describe overall survival in patients with aHCC
 ---
 
 
@@ -20,28 +20,34 @@ description:  A model to describe overall survival in patietns with aHCC
 <h1 id="sett">Setting and Data</h1>
 
 <h2>Setting </h2>
-
+<p>
 DESCRIPTION
+</p>
 
-<div class="row">
-	<div class="4u 12u$(medium)">
-	  <div class="box">
-  		<h3> Patients </h3>
+<h2> Estimand </h2>
+<div class="box">
+  <div class="row">
+  
+	  <div class="6u 12u$(medium)">
+	    <div class="box">
+  		  <h3> Patients </h3>
   		<p> PATIENT DETAILS </p>
-  	</div>	
-	</div>
-	<div class="4u 12u$(medium)">
+  	  </div>	
+	  </div>
+	  
+	  <div class="3u 12u$(medium)">
 		  <div class="box">
-		<h3> Intervention </h3>
-		<p> INTERVENTION DETAILS </p>
-		  	</div>	
-	</div>
-	<div class="4u$ 12u$(medium)">
+		  <h3> Intervention </h3>
+		  <p> INTERVENTION DETAILS </p>
+		  </div>	
+	   </div>
+	  
+	  <div class="3u$ 12u$(medium)">
 		  <div class="box">
-		<h3> Outcome </h3>
-		<p> OUTCOME DETAILS </p>
-		  	</div>	
-	</div>
+		  <h3> Outcome </h3>
+		  <p> OUTCOME DETAILS </p>
+		  </div>	
+  </div>
 </div>
 
 
@@ -55,94 +61,82 @@ DESCRIPTION
 
 <h2 id="data">Data</h2>
 
-<p> A description of the data used to generate the model </p>
+<p> The dataset consisted of 454 patients of whom 204 (45%) observed an 
+event and 250 (55%) did not. The median overall survival (95% CI) was 
+16.2 (14.3, 17.6) months. </p>
 
 <div class="row 200%">
 	
 	<div class="6u 12u$(medium)">
 
   <!-- Table -->
-		<h4>Covariates</h4>
+		<h3>Model Covariates</h3>
+		
+		<p> The covariates selected for inclusion in the model were<br>
+		Eastern Cooperative Oncology Group (ECOG) score, extra-hepatic spread (EHS), 
+		bilirubin (BIL), tumour size, age, albumin (ALB) and alpha-fetoprotein (AFP) </p>
+		
       <div class="table-wrapper">
-      	<table>
-    <caption>Covariates Summary</caption>
-     <thead>
+      <table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Characteristic </th>
+   <th style="text-align:left;"> N = 454 </th>
+  </tr>
+ </thead>
+<tbody>
       <tr>
-       <th style="text-align:center;"> Variable </th>
-       <th style="text-align:center;"> Summary </th>
-      </tr>
-     </thead>
-    <tbody>
-      <tr>
-       <td style="text-align:center;"> Age </td>
-       <td style="text-align:center;"> 68.19 (7.69) </td>
-      </tr>
-      <tr>
-       <td style="text-align:center;"> AFP </td>
-       <td style="text-align:center;"> 4.22 (2.48) </td>
+       <td style="text-align:left;"> ECOG0 </td>
+       <td style="text-align:left;"> 199 (44%) </td>
       </tr>
       <tr>
-       <td style="text-align:center;"> Hepatitis B </td>
-       <td style="text-align:center;"> 0.15 (0.36) </td>
+       <td style="text-align:left;"> ECOG1 </td>
+       <td style="text-align:left;"> 230 (51%) </td>
       </tr>
       <tr>
-       <td style="text-align:center;"> Hepatitis C </td>
-       <td style="text-align:center;"> 0.25 (0.43) </td>
+       <td style="text-align:left;"> ECOG2 </td>
+       <td style="text-align:left;"> 0.25 (5.5%) </td>
       </tr>
       <tr>
-       <td style="text-align:center;"> Bilirubin </td>
-       <td style="text-align:center;"> 18.8 (14.14) </td>
+       <td style="text-align:left;"> EHS </td>
+       <td style="text-align:left;"> 164 (36%) </td>
       </tr>
       <tr>
-       <td style="text-align:center;"> Albumin </td>
-       <td style="text-align:center;"> 38.89 (4.28) </td>
+       <td style="text-align:left;"> BIL </td>
+       <td style="text-align:left;"> 1.13 (0.95, 1.34) </td>
       </tr>
       <tr>
-       <td style="text-align:center;"> Lesion1 </td>
-       <td style="text-align:center;"> 5.7 (3.73) </td>
+       <td style="text-align:left;"> Tumour size </td>
+       <td style="text-align:left;"> 7.35 (5.57, 9.64) </td>
       </tr>
       <tr>
-       <td style="text-align:center;"> Lesion2 </td>
-       <td style="text-align:center;"> 3.26 (1.93) </td>
+       <td style="text-align:left;"> Age </td>
+       <td style="text-align:left;"> 68 (62,74) </td>
       </tr>
       <tr>
-       <td style="text-align:center;"> Gender </td>
-       <td style="text-align:center;"> Female : 6, Male : 75 </td>
+       <td style="text-align:left;"> Albumin </td>
+       <td style="text-align:left;"> 3.80 (3.40,4.20) </td>
       </tr>
       <tr>
-       <td style="text-align:center;"> Cirrhosis </td>
-       <td style="text-align:center;"> 0 : 4, 1 : 77 </td>
+       <td style="text-align:left;"> AFP </td>
+       <td style="text-align:left;"> 14 (5,42) </td>
       </tr>
-      <tr>
-       <td style="text-align:center;"> Focality </td>
-       <td style="text-align:center;"> Multifocal : 75, Unifocal : 6 </td>
-      </tr>
-      <tr>
-       <td style="text-align:center;"> Vascular.invasion </td>
-       <td style="text-align:center;"> 0 : 81 </td>
-      </tr>
-      <tr>
-       <td style="text-align:center;"> Child.Pugh.grade </td>
-       <td style="text-align:center;"> A : 81 </td>
-      </tr>
-    </tbody>
-    </table>
+</tbody>
+</table>
       </div>
   
+  </div>
   <!-- End Table -->
   
-  </div>
-  
+
   <div class="6u 12u$(medium)">
     <!-- Image -->
-    <h3>Model covariates</h3>
-    Details of the covariates used to generate the model are:
-    <span class="image fit"><img src="{% link assets/images/TACE_dataPlot.png %}" alt="" /></span>
-    </div>
+    <span class="image fit"><img src="{% link assets/images/at_bev_ka.png %}" alt="" /></span>
+  </div>
      <!-- End Image -->
   </div>
 
-</div>
+
 
 
 
@@ -157,7 +151,10 @@ DESCRIPTION
 <div class="box">
 <h1 id="data"> Model </h1>
 
-<p> A description of the data used to generate the model: </p>
+<p> The model constructed was a flexible parametric survival model using
+a spline function to model the underlying cumulative hazard function. Four internal
+knots were chosen. 
+</p>
 
 <div class="row 200%">
 	
@@ -165,7 +162,8 @@ DESCRIPTION
     <h3> Model Construction </h3>
     <div class="box">
     	<p> Include details here about the process of fitting the model.  E.G. 
-    	backwards stepwise procedure based on model AIC </p>
+    	backwards stepwise procedure based on model AIC. 
+    	</p>
     </div>
     
     <!-- Image -->
@@ -184,54 +182,89 @@ DESCRIPTION
 
 <!-- Table -->
 	
-   <h4>Model Estimates and Standard Errors</h4> 
+   <h4>Model Estimates</h4> 
 
   <div class="modelTable">
   	
   	<table>
-<!-- <caption>Model Estimates and Standard Errors</caption> -->
+
  <thead>
   <tr>
-      <th style="text-align:left;"> Parameter </th>
-   <th style="text-align:right;"> Estimate </th>
-   <th style="text-align:right;"> SE </th>
+   <th style="text-align:left;">  </th>
+   <th style="text-align:right;"> Estimate (se) </th>
+   <th style="text-align:right;"> HR (95% CI) </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-      <td style="text-align:left;"> gamma0 </td>
-   <td style="text-align:right;"> -2.1373 </td>
-   <td style="text-align:right;"> 1.9048 </td>
+   <td style="text-align:left;"> &gamma;0 </td>
+   <td style="text-align:right;"> -5.48 </td>
+   <td style="text-align:right;"> </td>
   </tr>
   <tr>
-      <td style="text-align:left;"> gamma1 </td>
-   <td style="text-align:right;"> 1.8352 </td>
-   <td style="text-align:right;"> 0.4569 </td>
+   <td style="text-align:left;"> &gamma;1 </td>
+   <td style="text-align:right;"> 1.99 </td>
+   <td style="text-align:right;">  </td>
   </tr>
   <tr>
-     <td style="text-align:left;"> gamma2 </td>
-   <td style="text-align:right;"> 0.0614 </td>
-   <td style="text-align:right;"> 0.0602 </td>
+   <td style="text-align:left;"> &gamma;2 </td>
+   <td style="text-align:right;"> 0.07 </td>
+   <td style="text-align:right;">  </td>
   </tr>
   <tr>
-      <td style="text-align:left;"> AFP </td>
-   <td style="text-align:right;"> 0.1801 </td>
-   <td style="text-align:right;"> 0.0586 </td>
+   <td style="text-align:left;"> &gamma;3 </td>
+   <td style="text-align:right;"> 0.41 </td>
+   <td style="text-align:right;"> </td>
   </tr>
   <tr>
-      <td style="text-align:left;"> Cirrhosis1 </td>
-   <td style="text-align:right;"> -0.5538 </td>
-   <td style="text-align:right;"> 1.0464 </td>
+   <td style="text-align:left;"> &gamma;4 </td>
+   <td style="text-align:right;"> -1.61 </td>
+   <td style="text-align:right;">  </td>
   </tr>
   <tr>
-      <td style="text-align:left;"> Albumin </td>
-   <td style="text-align:right;"> -0.0867 </td>
-   <td style="text-align:right;"> 0.0371 </td>
+   <td style="text-align:left;"> &gamma;5 </td>
+   <td style="text-align:right;"> 3.56 </td>
+   <td style="text-align:right;">  </td>
   </tr>
   <tr>
-      <td style="text-align:left;"> Lesion1 </td>
-   <td style="text-align:right;"> 0.0221 </td>
-   <td style="text-align:right;"> 0.0438 </td>
+   <td style="text-align:left;"> ECOG1 </td>
+   <td style="text-align:right;"> 0.27 </td>
+   <td style="text-align:right;"> 1.30 (0.97, 1.76) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ECOG2 </td>
+   <td style="text-align:right;"> 0.57 </td>
+   <td style="text-align:right;"> 1.77 (0.96, 3.26) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> EHS Pos </td>
+   <td style="text-align:right;"> 0.53 </td>
+   <td style="text-align:right;"> 1.70 (1.27, 2.29) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Bilirubin </td>
+   <td style="text-align:right;"> 1.43 </td>
+   <td style="text-align:right;"> 4.17 (2.37, 7.35) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Tumour size </td>
+   <td style="text-align:right;"> 0.08 </td>
+   <td style="text-align:right;"> 1.09 (1.03, 1.14) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Age </td>
+   <td style="text-align:right;"> 0.02 </td>
+   <td style="text-align:right;"> 1.02 (1.00,1.03)</td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Albumin </td>
+   <td style="text-align:right;"> -0.62 </td>
+   <td style="text-align:right;"> 0.54 (0.40, 0.71) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Alpha-fetoprotein </td>
+   <td style="text-align:right;"> 0.001 </td>
+   <td style="text-align:right;"> 1.00 (1.00, 1.00) </td>
   </tr>
 </tbody>
 </table>
@@ -268,7 +301,17 @@ DESCRIPTION
 
 <h3> Validation Details </h3>
 <div class="box">
-	<p> Provide some information on how the model is validated </p>
+	<p> Validation are reported in term of Calibration, Discrimination and Somers' D.  
+	Calibration is reported in terms of the Mallows C-Statistic and by regressing 
+	the fitted linear predictor against the outcome (Slope). The linear predictor is 
+	derived using the model's coefficients. <br>
+	
+	Discrimination is evaluated by categorising patients into 4 risk groups.  
+	Risk groups are generated by using the 5th, 50th and 85th centiles of the 
+	linear predictor. The risk groups are	compared graphically 
+	and the relative risk is evaluated by fitting a 
+	univariable Cox Proportional Hazards Model.
+	</p>
 </div>
 
 
@@ -276,83 +319,78 @@ DESCRIPTION
 
 	<div class="6u 12u$(medium)">
 
-  <h4>Calibration Details</h4>
+  <h4>Calibration</h4>
   
-  <div class="table-wrapper">
-  	<table>
+    <div class="table-wrapper">
+  <table>
  <thead>
   <tr>
-   <th style="text-align:left;"> Metric </th>
-   <th style="text-align:right;"> Value </th>
+   <th style="text-align:left;">  </th>
+   <th style="text-align:left;"> est (se) </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> C-index </td>
-   <td style="text-align:right;"> 0.2895377 </td>
+   <td style="text-align:left;"> C-Statistic </td>
+   <td style="text-align:left;"> 0.69 (0.018) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Calibration Slope </td>
-   <td style="text-align:right;"> 0.9827559 </td>
+   <td style="text-align:left;"> Slope </td>
+   <td style="text-align:left;"> 1.00 (0.102) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Calibration Slope SE </td>
-   <td style="text-align:right;"> 0.2402236 </td>
+   <td style="text-align:left;"> Somers' D </td>
+   <td style="text-align:left;"> 0.39 </td>
   </tr>
 </tbody>
 </table>
+  </div>
 
-<h4>Discrimination Details</h4>
+<h4>Discrimination</h4>
   
   <div class="table-wrapper">
     <table>
- <thead>
-  <tr>
-   <th style="text-align:left;"> Risk Group </th>
-   <th style="text-align:right;"> Coefficient </th>
-   <th style="text-align:right;"> SE (Coef) </th>
-   <th style="text-align:right;"> Z-value </th>
-   <th style="text-align:right;"> P-value </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> Medium-Low </td>
-   <td style="text-align:right;"> 0.3462284 </td>
-   <td style="text-align:right;"> 0.4426802 </td>
-   <td style="text-align:right;"> 0.7821186 </td>
-   <td style="text-align:right;"> 0.4341449 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Medium-High </td>
-   <td style="text-align:right;"> 1.1493102 </td>
-   <td style="text-align:right;"> 0.4519407 </td>
-   <td style="text-align:right;"> 2.5430551 </td>
-   <td style="text-align:right;"> 0.0109888 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> High </td>
-   <td style="text-align:right;"> 1.3859891 </td>
-   <td style="text-align:right;"> 0.4313030 </td>
-   <td style="text-align:right;"> 3.2134929 </td>
-   <td style="text-align:right;"> 0.0013113 </td>
-  </tr>
-</tbody>
-</table>
-
-      
-
+     <thead>
+      <tr>
+       <th style="text-align:left;"> </th>
+       <th style="text-align:right;"> est (se) </th>
+       <th style="text-align:right;"> HR (95% CI) </th>
+      </tr>
+     </thead>
+    <tbody>
+      <tr>
+       <td style="text-align:left;"> Risk Group 1 </td>
+       <td style="text-align:left;"> </td>
+       <td style="text-align:left;"> </td>
+      </tr>
+      <tr>
+       <td style="text-align:left;">  Risk Group 2 </td>
+       <td style="text-align:left;">  0.88 (0.52) </td>
+       <td style="text-align:left;"> 2.42 (0.88, 6.65) </td>
+      </tr>
+      <tr>
+       <td style="text-align:left;"> Risk Group 3 </td>
+       <td style="text-align:left;">  1.77 (0.51) </td>
+       <td style="text-align:left;">  5.85 (2.14, 15.96) </td>
+      </tr>
+      <tr>
+       <td style="text-align:left;"> Risk Group 4 </td>
+       <td style="text-align:left;"> 2.59 (0.53) </td>
+       <td style="text-align:left;"> 13.34 (4.76, 37.37) </td>
+      </tr>
+    </tbody>
+    </table>
+  
   </div>
 
   </div>
   
   	<div class="6u 12u$(medium)">
   	  <!-- Image -->
-  <h3>Validation</h3>
 
-  Some text to describe the validation output
+  Kaplan Meier plot to show survival estimates within each of the 4 risk groups
 
-  <span class="image fit"><img src="{% link assets/images/Calibration.png %}" alt="" /></span>
+  <span class="image fit"><img src="{% link assets/images/atBev_discrim.png %}" alt="" /></span>
 
 
    </div>

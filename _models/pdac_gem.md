@@ -59,7 +59,7 @@ centers in Europe, Australasia, Japan, and Canada
   	<div class="3u$ 12u$(medium)">
   		<div class="box">
   		<h3> Outcome </h3>
-  		<p> The Outcome is Overall Survival measured as the point from randomisation 
+  		<p> The outcome is Overall Survival measured as the point from randomisation 
   		until death by any cause </p>
   		</div>	
   	</div>
@@ -344,12 +344,12 @@ training dataset.
 <div class="box">
 	<p> Validation are reported in terms of Calibration, Discrimination and Somers' D.  
 	Calibration is reported in terms of the Mallows C-Statistic and by regressing 
-	the fitted linear predictor against the outcome (Slope).
+	the fitted linear predictor against the outcome (Slope). <br>
 	
 	Discrimination is evaluated by categorising patients into 4 risk groups.  
-	Risk groups are determined by the quartiles of the linear predictor and 
+	Risk groups are determined by the 25th, 50th and 75th centiles of the linear predictor and 
 	compared graphically and by evaluating the relative risk by fitting a 
-	univariable Cox Proportional Hazards Models.
+	univariable Cox Proportional Hazards Model.
 	</p>
 </div>
 
