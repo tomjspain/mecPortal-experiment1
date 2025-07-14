@@ -68,7 +68,7 @@ centers in Europe, Australasia, Japan, and Canada
   		<p> The chosen estimand for analysis follows the Treatment Policy approach, ignoring 
       any intercurrent events or termination of therapies as is suitable for evaluating 
       patients at the point of treatment choice.   Lastly, as a key prognositc 
-      indicator, only patients with a basleine measure of CA19.9 were retained in the 
+      indicator, only patients with a basleine measure of post-operative CA19-9 were retained in the 
       model.</p>
 
   </div>
@@ -88,7 +88,7 @@ centers in Europe, Australasia, Japan, and Canada
 <p> Data considered for inclusion in the model were observed from the baseline
 case report forms of the ESPAC-3 study and included Resection
 Margin Status, Lymph Nodes, Local Invasion, WHO status, Tumor Grade (Differentiation), Tumour
-Size, Diabetes status and post-operative CA19.9</p>
+Size, Diabetes status and Post-operative CA19.9</p>
 
 
 <p> The dataset included 339 patients of whom 267 (79%) observed an event (died). 
@@ -102,7 +102,7 @@ Median Overall Survival (95% CI) was 22.8 (21.2 - 27.2) months.
 		<h3>Model Covariates</h3>
 
     <p> The covariates selected for inclusion in the model were Resection Margin, Tumour 
-    Grade, Lymph Nodes and (log) CA19.9.
+    Grade, Lymph Nodes and (log) Post-operative CA19-9.
     </p>
     
     
@@ -110,53 +110,53 @@ Median Overall Survival (95% CI) was 22.8 (21.2 - 27.2) months.
       <table>
  <thead>
   <tr>
-   <th style="text-align:left;"> **Characteristic** </th>
-   <th style="text-align:left;"> **N = 339** </th>
+   <th style="text-align:left;"> Characteristic </th>
+   <th style="text-align:left;"> N = 339 </th>
   </tr>
  </thead>
 <tbody>
   <tr>
    <td style="text-align:left;"> Resec </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> Neg </td>
    <td style="text-align:left;"> 206 (61%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> 1 </td>
+   <td style="text-align:left;"> Pos </td>
    <td style="text-align:left;"> 133 (39%) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Diff status </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> Poor </td>
    <td style="text-align:left;"> 85 (25%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> 1 </td>
+   <td style="text-align:left;"> Moderate </td>
    <td style="text-align:left;"> 214 (63%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> Well </td>
    <td style="text-align:left;"> 40 (12%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> nodes </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> LymphN </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> Neg </td>
    <td style="text-align:left;"> 97 (29%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> 1 </td>
+   <td style="text-align:left;"> Pos </td>
    <td style="text-align:left;"> 242 (71%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> lca199 </td>
+   <td style="text-align:left;"> log(PostOp CA19-9) </td>
    <td style="text-align:left;"> 3.04 (2.30, 4.14) </td>
   </tr>
 </tbody>
@@ -195,7 +195,7 @@ Median Overall Survival (95% CI) was 22.8 (21.2 - 27.2) months.
 <p> The model consturcuted was a flexible parametric survival model using a 
 spline function to model the underlying cumulative hazard function.  Five 
 internal knots were chosen which gave sufficient flexibility. The number of 
-knots was chosen based on best log-likelihood.
+knots was chosen based on the best log-likelihood.
 </p>
 
 <div class="row 200%">
@@ -244,60 +244,60 @@ was constructed and single terms removed in an itterative fashion.  </p>
   <tr>
    <td style="text-align:left;"> &gamma;0 </td>
    <td style="text-align:left;"> -11.38 (1.56) </td>
-   <td style="text-align:left;"> 0 (0 - 0) </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;1 </td>
    <td style="text-align:left;"> 3.84 (0.79) </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;2 </td>
    <td style="text-align:left;"> 1.29 (2.22) </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;3 </td>
    <td style="text-align:left;"> -1.32 (4.0) </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;4 </td>
    <td style="text-align:left;"> 1.12 (3.55) </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;5 </td>
    <td style="text-align:left;"> -0.89 (2.22) </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;6 </td>
    <td style="text-align:left;"> 0.34 (0.81) </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> LymphN1 </td>
+   <td style="text-align:left;"> LymphN Pos </td>
    <td style="text-align:left;"> 0.49 (0.15) </td>
    <td style="text-align:left;"> 1.63 (1.21 - 2.19) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> ResecM </td>
+   <td style="text-align:left;"> ResecM Pos </td>
    <td style="text-align:left;"> 0.18 (0.13) </td>
    <td style="text-align:left;"> 1.20 (0.94 - 1.53) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Diff status1 </td>
+   <td style="text-align:left;"> Diff status Moderate </td>
    <td style="text-align:left;"> -0.42 (0.14) </td>
    <td style="text-align:left;"> 0.66 (0.50 - 0.87) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Diff status2 </td>
+   <td style="text-align:left;"> Diff status Well </td>
    <td style="text-align:left;"> -0.59 (0.22) </td>
    <td style="text-align:left;"> 0.55 (0.36 - 0.86) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> lca199 </td>
+   <td style="text-align:left;"> log(PostOp CA19-9) </td>
    <td style="text-align:left;"> 0.27 (0.04) </td>
    <td style="text-align:left;"> 1.31 (1.21 - 1.41) </td>
   </tr>
