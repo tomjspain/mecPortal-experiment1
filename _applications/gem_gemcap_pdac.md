@@ -87,22 +87,51 @@ pscVis example
 ## Analysis
 
 <body>
-<div class ="row">
+<div class="row">
   <div class="5u 12u$(medium)">
     <!-- Image -->
     <h4> Comparison </h4>
-    <p> The average expected survival estimate of the CFM (control treatment -GEM) and the
+    <p> 
+    The average expected survival estimate of the CFM (control treatment -GEM) and the
     average observed survival estimate of the GEMCAP patients is shown below to 
     visualise the comparison of GEM CFM (pink) vs GEMCAP treatment (orange) <br>
     </p>
-    <span class="image fit"><img src="{% link assets/images/e3gem_vs_e4gemcap.png %}" alt="" /></span>
+    <span class="image fit">
+      <img src="{% link assets/images/e3gem_vs_e4gemcap.png %}" alt="" />
+    </span>
+    <!-- End Image -->
   </div>
-     <!-- End Image -->
- </div>
-<p> </p>
+  
+  <div class="5u 12u$(medium)">
+    <div class="box">
+      <p>
+      &beta;
+      </p>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+          <tr>
+            <th style="text-align:left;"> Median </th>
+            <th style="text-align:left;"> 2.5% </th>
+            <th style="text-align:left;"> 97.5% </th>
+            <th style="text-align:left;"> Median </th>
+          </tr>
+          </thead>
+        <tbody>
+          <tr>
+            <td style="text-align:left;"> -0.4655169 </td>
+            <td style="text-align:left;"> -0.5988531 </td>
+            <td style="text-align:left;"> -0.3392391 </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 
-
+</div>
 ## Sub-group analysis
 
 
