@@ -61,13 +61,18 @@ with resected pancreatic ductal adenocarcinoma. </p>
 </div>
 </div>
 ## Description of model
-
+<p>
+A CFM model was developed using the pscfit() function from 
+the psc package. The psc() function calculates the linear predictor
+as a combination of the CFM and the comparison dataset, and
+then selects a likelihood based on the tye of model specified
+</p>
 <p>The GEM CFM model was used as a control to predict the performance
 of GEM treatment on GEMCAP patients and to compare the predictions
-against the actual performance of GEMCAP treatment.</p>
+against the actual performance of GEMCAP treatment on patients.</p>
 
 
-The GEM model and the data used to build the model can be found here: <br>
+The GEM model and the details on the ESPAC-3 study used to build the model can be found here: <br>
 <p><a href="https://richjjackson.github.io/mecPortal//models/pdac_gem.html">Visit GEM model</a></p>
 
 ## description of data
@@ -75,10 +80,15 @@ The GEM model and the data used to build the model can be found here: <br>
 pscVis example
 
 ## Analysis
-<p>pscfit and images</p>
+
 <body>
   <div class="5u 12u$(medium)">
     <!-- Image -->
+    <h4> Comparison </h4>
+    <p> The average expected survival estimate of the CFM (control treatment -GEM) and the
+    average observed survival estimate of the GEMCAP patients is shown below to 
+    visualise the comparison of GEM CFM (pink) vs GEMCAP treatment (orange) <br>
+    </p>
     <span class="image fit"><img src="{% link assets/images/e3gem_vs_e4gemcap.png %}" alt="" /></span>
   </div>
      <!-- End Image -->
