@@ -63,7 +63,7 @@ with resected pancreatic ductal adenocarcinoma. </p>
 ## Description of model
 <p>
 A CFM model was developed using the pscfit() function from 
-the psc package. The psc() function calculates the linear predictor
+the psc package. The pscfit() function calculates the linear predictor
 as a combination of the CFM and the comparison dataset, and
 then selects a likelihood based on the type of model specified.
 </p>
@@ -87,6 +87,7 @@ pscVis example
 ## Analysis
 
 <body>
+<div class ="row">
   <div class="5u 12u$(medium)">
     <!-- Image -->
     <h4> Comparison </h4>
@@ -97,6 +98,8 @@ pscVis example
     <span class="image fit"><img src="{% link assets/images/e3gem_vs_e4gemcap.png %}" alt="" /></span>
   </div>
      <!-- End Image -->
+ </div>
+<p> </p>
 </body>
 
 
