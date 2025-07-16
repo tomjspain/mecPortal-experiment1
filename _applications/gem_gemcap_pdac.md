@@ -104,24 +104,30 @@ pscVis example
   
   <div class="5u 12u$(medium)">
     <div class="box">
-      <p>
-      &beta;
-      </p>
+
       <div class="table-wrapper">
         <table>
           <thead>
           <tr>
+            <th style="text-align:left;">  </th>
             <th style="text-align:left;"> Median </th>
             <th style="text-align:left;"> 2.5% </th>
             <th style="text-align:left;"> 97.5% </th>
-            <th style="text-align:left;"> Median </th>
+            
           </tr>
           </thead>
         <tbody>
           <tr>
-            <td style="text-align:left;"> -0.4655169 </td>
-            <td style="text-align:left;"> -0.5988531 </td>
-            <td style="text-align:left;"> -0.3392391 </td>
+            <td style="text-align:left;"> &beta; </td>
+            <td style="text-align:left;"> -0.47 </td>
+            <td style="text-align:left;"> -0.60 </td>
+            <td style="text-align:left;"> -0.34 </td>
+          </tr>
+          <tr>
+            <td style="text-align:left;"> DIC </td>
+            <td style="text-align:left;"> 1321.34 </td>
+            <td style="text-align:left;"> 1297.85 </td>
+            <td style="text-align:left;"> 1356.92 </td>
           </tr>
         </tbody>
       </table>
