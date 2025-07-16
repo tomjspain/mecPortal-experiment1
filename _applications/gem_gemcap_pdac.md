@@ -65,15 +65,20 @@ with resected pancreatic ductal adenocarcinoma. </p>
 A CFM model was developed using the pscfit() function from 
 the psc package. The psc() function calculates the linear predictor
 as a combination of the CFM and the comparison dataset, and
-then selects a likelihood based on the tye of model specified
+then selects a likelihood based on the type of model specified.
 </p>
-<p>The GEM CFM model was used as a control to predict the performance
+
+<p>
+The GEM CFM model was used as a control to predict the performance
 of GEM treatment on GEMCAP patients and to compare the predictions
-against the actual performance of GEMCAP treatment on patients.</p>
+against the actual performance of GEMCAP treatment on patients.
+</p>
 
 
-The GEM model and the details on the ESPAC-3 study used to build the model can be found here: <br>
-<p><a href="https://richjjackson.github.io/mecPortal//models/pdac_gem.html">Visit GEM model</a></p>
+<p>
+The GEM model and the details on the ESPAC-3 study used to build the model can be found here: 
+<a href="https://richjjackson.github.io/mecPortal//models/pdac_gem.html">Visit GEM model</a>
+</p>
 
 ## description of data
 
