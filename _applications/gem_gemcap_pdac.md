@@ -94,7 +94,7 @@ pscVis example
     <p> 
     The average expected survival estimate of the CFM (control treatment -GEM) and the
     average observed survival estimate of the GEMCAP patients is shown below to 
-    visualise the comparison of GEM CFM (pink) vs GEMCAP treatment (orange) <br>
+    visualise the comparison of the GEM CFM (pink) vs GEMCAP treatment (orange) <br>
     </p>
     <span class="image fit">
       <img src="{% link assets/images/e3gem_vs_e4gemcap.png %}" alt="" />
@@ -109,7 +109,7 @@ pscVis example
         <table>
           <thead>
           <tr>
-            <th style="text-align:left;">  </th>
+            <th style="text-align:left;"> </th>
             <th style="text-align:left;"> Median </th>
             <th style="text-align:left;"> 2.5% </th>
             <th style="text-align:left;"> 97.5% </th>
@@ -134,10 +134,20 @@ pscVis example
       </div>
     </div>
   </div>
+  <div class="5u 12u$(medium)">
+    <div class="box">
+    <p>
+    The predicted survival probability for ESPAC-4 patients treated with GEM 
+    is less than the observed survival probability of ESPAC-4 patients treated
+    with GEMCAP, demonstrating that combination therapy GEMCAP has greater 
+    efficacy than monotherapy GEM.
+    </p>
+    </div>
+  </div>
 </div>
 </body>
 
-</div>
+
 ## Sub-group analysis
 
 
