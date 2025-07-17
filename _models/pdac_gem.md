@@ -51,7 +51,7 @@ centers in Europe, Australasia, Japan, and Canada
   	<div class="3u 12u$(medium)">
   		<div class="box">
   		<h3> Intervention </h3>
-  		<p> Patients received gemcitabine as 1000 mg/m2 intravenous infusion once a 
+  		<p> Patients received gemcitabine as 1000 mg/m<sup>2</sup> intravenous infusion once a 
   		week for 3 of every 4 weeks for up to 6 months </p>
   		</div>	
   	</div>
@@ -347,7 +347,7 @@ training dataset.
 	the fitted linear predictor against the outcome (Slope). <br>
 	
 	Discrimination is evaluated by categorising patients into 4 risk groups.  
-	Risk groups are determined by the 25th, 50th and 75th centiles of the linear predictor and 
+	Risk groups are determined by the 15th, 50th and 85th centiles of the linear predictor and 
 	compared graphically and by evaluating the relative risk by fitting a 
 	univariable Cox Proportional Hazards Model.
 	</p>
@@ -405,18 +405,18 @@ training dataset.
       </tr>
       <tr>
        <td style="text-align:left;"> Risk Group 2 </td>
-       <td style="text-align:left;"> 0.331 (0.191) </td>
-       <td style="text-align:left;"> 1.393 (0.957, 2.027) </td>
+       <td style="text-align:left;"> 0.594 (0.231) </td>
+       <td style="text-align:left;"> 1.810 (1.152, 2.846) </td>
       </tr>
       <tr>
        <td style="text-align:left;"> Risk Group 3 </td>
-       <td style="text-align:left;"> 0.778 (0.185) </td>
-       <td style="text-align:left;"> 2.177 (1.515, 3.128) </td>
+       <td style="text-align:left;"> 1.167 (0.227) </td>
+       <td style="text-align:left;"> 3.213 (2.060, 5.012) </td>
       </tr>
       <tr>
        <td style="text-align:left;"> Risk Group 4 </td>
-       <td style="text-align:left;"> 1.444 (0.185) </td>
-       <td style="text-align:left;"> 4.239 (2.947, 6.096) </td>
+       <td style="text-align:left;"> 1.856 (0.185) </td>
+       <td style="text-align:left;"> 6.395 (3.874, 10.558) </td>
       </tr>
     </tbody>
     </table>
