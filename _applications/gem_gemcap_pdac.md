@@ -11,9 +11,7 @@ description:  A CFM model to predict and compare the response of gemcitabine cap
 ## Executive Summary
 
 <p>Patients that received GEMCAP (experimental treatment) were 
-compared against a counterfactual model (CFM) developed 
-using patients treated with GEM (control treatment) 
-in the ESPAC-3 study. </p>
+compared against a counterfactual model (CFM). </p>
 
 <div class="box">
 
@@ -61,12 +59,6 @@ with resected pancreatic ductal adenocarcinoma. </p>
 </div>
 </div>
 ## Description of model
-<p>
-A CFM model was developed using the pscfit() function from 
-the psc package. The pscfit() function calculates the linear predictor
-as a combination of the CFM and the comparison dataset, and
-then selects a likelihood based on the type of model specified.
-</p>
 
 <p>
 The GEM CFM model was used as a control to predict the performance
