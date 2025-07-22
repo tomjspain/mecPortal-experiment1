@@ -5,13 +5,12 @@ area: PDAC
 description:  A CFM model to predict and compare the response of gemcitabine capecitabine patients to treatment with monotherapy gemcitabine
 ---
 
-# Layout
-
-
 ## Executive Summary
 
-<p>Patients that received GEMCAP (experimental treatment) were 
-compared against a counterfactual model (CFM). </p>
+<p>The survival outcome of patients that received gemcitabine plus capecitabine (GEMCAP)
+GEMCAP (experimental treatment) were compared against a 
+counterfactual model (CFM). The CFM predicts the survival outcome
+of patients if they had been treated with monotherapy gemcitabine (GEM). </p>
 
 <div class="box">
 
@@ -61,14 +60,13 @@ with resected pancreatic ductal adenocarcinoma. </p>
 ## Description of model
 
 <p>
-The GEM CFM model was used as a control to predict the performance
-of GEM treatment on GEMCAP patients and to compare the predictions
-against the actual performance of GEMCAP treatment on patients.
+The GEM CFM model was used as a control to compare the predicted performance of GEM treatment
+with the actual observed performance of GEMCAP treatments on ESPAC-4 patients.
 </p>
 
 
 <p>
-The GEM model and the details on the ESPAC-3 study used to build the model can be found here: 
+The GEM model and the details of the ESPAC-3 study used to build the model can be found here: 
 <a href="https://richjjackson.github.io/mecPortal//models/pdac_gem.html">Visit GEM model</a>
 </p>
 
@@ -76,8 +74,8 @@ The GEM model and the details on the ESPAC-3 study used to build the model can b
 
 pscVis example
 
-## Analysis
-
+<div class = "box">
+<h2 id="Analysis"> Analysis </h2>
 <body>
 <div class="row">
   <div class="5u 12u$(medium)">
@@ -124,6 +122,9 @@ pscVis example
         </tbody>
       </table>
       </div>
+    <p>
+    DIC, deviance information criterion.
+    </p>
     </div>
   </div>
   <div class="5u 12u$(medium)">
@@ -133,11 +134,14 @@ pscVis example
     is less than the observed survival probability of ESPAC-4 patients treated
     with GEMCAP, demonstrating that combination therapy GEMCAP has greater 
     efficacy than monotherapy GEM.
-    </p>
+    </p> <br>
+    &beta; is the efficacy parameter which measures the distance between the actual 
+    observed data and the model's estimates.
     </div>
   </div>
 </div>
 </body>
+</div>
 
 
 ## Sub-group analysis
