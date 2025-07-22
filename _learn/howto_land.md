@@ -29,7 +29,7 @@ Details on Model Estimated Controls as a tool for Causal Inference
 				</header>
 				<p> Learn how to use Model Estimated Controls when you have a survival outcome </p>
 				<ul class="actions">
-					<li><a href="howto_surv.html" class="button">Learn more</a></li>
+					<li><a href="https://htmlpreview.github.io/?https://github.com/kusqaum/PDAC/blob/main/howto_surv_k.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
