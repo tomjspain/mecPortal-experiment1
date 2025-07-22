@@ -244,37 +244,37 @@ was constructed and single terms removed in an itterative fashion.  </p>
   <tr>
    <td style="text-align:left;"> &gamma;0 </td>
    <td style="text-align:left;"> -11.38 (1.56) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  0 (0 - 0) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;1 </td>
    <td style="text-align:left;"> 3.84 (0.79) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 46.34 (9.86 - 217.7) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;2 </td>
    <td style="text-align:left;"> 1.29 (2.22) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 3.64 (0.05 - 284.34) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;3 </td>
    <td style="text-align:left;"> -1.32 (4.0) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 0.27 (0 - 643.24) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;4 </td>
    <td style="text-align:left;"> 1.12 (3.55) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 3.06 (0 - 3229.93) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;5 </td>
    <td style="text-align:left;"> -0.89 (2.22) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 0.41 (0.01 - 31.87) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;6 </td>
    <td style="text-align:left;"> 0.34 (0.81) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 1.4 (0.28 - 6.89) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> LymphN Pos </td>
