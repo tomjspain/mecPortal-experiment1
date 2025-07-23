@@ -33,7 +33,7 @@ with advanced HCC (aHCC).
 	  <div class="6u 12u$(medium)">
 	    <div class="box">
   		  <h3> Patients </h3>
-  		<p> Patients were eligible if theyhad not received any prior
+  		<p> Patients were eligible if they had not received any prior
   		systemic therapy for aHCC. </p>
   	  </div>	
 	  </div>
@@ -41,7 +41,7 @@ with advanced HCC (aHCC).
 	  <div class="3u 12u$(medium)">
 		  <div class="box">
 		  <h3> Intervention </h3>
-		  <p> Patients received brivanib as 800mg orally every day. DETAILS </p>
+		  <p> Patients received brivanib as 800mg orally every day. </p>
 		  </div>	
 	   </div>
 	  
@@ -101,8 +101,12 @@ event and 250 (55%) did not. The median overall survival (95% CI) was
        <td style="text-align:left;"> 0.25 (5.5%) </td>
       </tr>
       <tr>
-       <td style="text-align:left;"> EHS </td>
+       <td style="text-align:left;"> EHS Pos </td>
        <td style="text-align:left;"> 164 (36%) </td>
+      </tr>
+      <tr>
+       <td style="text-align:left;"> EHS Neg </td>
+       <td style="text-align:left;"> 290 (64%) </td>
       </tr>
       <tr>
        <td style="text-align:left;"> BIL </td>
