@@ -335,12 +335,16 @@ was constructed and single terms removed in an itterative fashion.  </p>
 <p> Details on the validation of the model: </p>
 
 <p>
-Internal Validation is performed by assessing how well the model performs on the 
+Internal validation is performed by assessing how well the model performs on the 
 training dataset.
+<br>
+The gemcitabine treated patients from the ESPAC-4 trial was used as an external
+validation set.
 </p>
 
 
 <h3> Validation Details </h3>
+<h4> Internal Validation </h4>
 <div class="box">
 	<p> Validation are reported in terms of Calibration, Discrimination and Somers' D.  
 	Calibration is reported in terms of the Mallows C-Statistic and by regressing 
@@ -437,6 +441,72 @@ training dataset.
    </div>
 
   </div>
+
+<br>
+<h4> External Validation </h4>
+<h4> Calibration </h4>
+<div class = "row">
+  <div class= "6u 12u$(medium)">
+    <div class="table-wrapper">
+  
+      <table>
+     <thead>
+      <tr>
+       <th style="text-align:left;">   </th>
+       <th style="text-align:left;"> est (se) </th>
+      </tr>
+     </thead>
+    <tbody>
+      <tr>
+       <td style="text-align:left;"> C-Statistic </td>
+       <td style="text-align:left;"> 0.59 (0.018) </td>
+      </tr>
+      <tr>
+       <td style="text-align:left;"> Slope </td>
+       <td style="text-align:left;">  0.544 (0.12) </td>
+      </tr>
+      <tr>
+       <td style="text-align:left;"> Somers' D </td>
+       <td style="text-align:left;"> 0.17 </td>
+      </tr>
+    </tbody>
+    </table>
+  </div>
+
+<h4> Discrimination </h4>
+<div class ="table-wrapper">
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:left;"> Est (se) </th>
+   <th style="text-align:left;"> HR (95% CI) </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> xrgRisk Group 2 </td>
+   <td style="text-align:left;"> 0.28 </td>
+   <td style="text-align:left;"> 1.33 (0.92-1.91) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> xrgRisk Group 3 </td>
+   <td style="text-align:left;"> 0.43 </td>
+   <td style="text-align:left;"> 1.54 (1.06-2.23) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> xrgRisk Group 4 </td>
+   <td style="text-align:left;"> 0.99 </td>
+   <td style="text-align:left;"> 2.7 (1.69-4.33) </td>
+  </tr>
+</tbody>
+</table>      
+    
+</div>
+
+
+  </div>
+</div>
 
 </div>
 
