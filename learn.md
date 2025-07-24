@@ -65,7 +65,7 @@ nav-menu: true
 				<header class="major">
 					<h3> How To... </h3>
 				</header>
-				<p> Detials and user guides on how to use Synthetic Controls in practice </p>
+				<p> Details and user guides on how to use Synthetic Controls in practice </p>
 				<ul class="actions">
 					<li><a href="learn/howto_land.html" class="button">Learn more</a></li>
 				</ul>

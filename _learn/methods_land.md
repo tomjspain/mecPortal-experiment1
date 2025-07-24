@@ -33,7 +33,7 @@ image: assets/images/modelPlane.jpg
   					<h3> Models as the base for counter-factual evidence </h3>
   				</header>
   				<p> The premis for Model Estimated Control is that a model can be used 
-  				to estimate a patients outcome and that this estimate can be compared 
+  				to estimate a patient's outcome and that this estimate can be compared 
   				against their observed outcome </p>
   			</div>
   		</div>
@@ -46,7 +46,7 @@ image: assets/images/modelPlane.jpg
   		<div class="content">
   			<div class="inner">
   				<header class="major">
-  					<h3> Average Treatment Effects obtained by averaging across indivial effect </h3>
+  					<h3> Average Treatment Effects obtained by averaging across individual effect </h3>
   				</header>
   				<p> To estimate the average treatment effect over a group of patients, we can average over all individual effects. </p>
   			</div>
@@ -135,7 +135,7 @@ image: assets/images/modelPlane.jpg
         <a href="methods_surv.html"> Bayesian Estimation of MECs </a>
         </h2>
       </header>
-	    <p> Get more detials on the Bayesian estimation procedures along with MCMC algorithms </p>
+	    <p> Get more details on the Bayesian estimation procedures along with MCMC algorithms </p>
   </div>
     
 </section>
