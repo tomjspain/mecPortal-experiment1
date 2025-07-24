@@ -145,7 +145,42 @@ pscVis example
 
 
 ## Sub-group analysis
+<div class = "box">
+<h2 id="Sub-group"> Sub-group analysis </h2>
 
+Sub-group effects are investigated by subsetting the observed 
+data cohort into sub-groups.
+  <div class="row">
+    <div class = "box">
+      <div class = "4u 12u$(medium)"
+      <table>
+ <thead>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:left;"> median (2.5%, 7.5% </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> beta </td>
+   <td style="text-align:left;"> -0.15 (-0.32,0.02) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> DIC </td>
+   <td style="text-align:left;"> 848.69 (837,866.55) </td>
+  </tr>
+</tbody>
+</table>
+      </div>
+    </div>
+    <div class="box">
+      <div class= "4u 12u$(medium)>
+      more sub group anal
+      </div>
+    </div>
+  </div>
+  
+</div>
 
 ## Conclusions
 
