@@ -150,9 +150,10 @@ pscVis example
 
 Sub-group effects are investigated by subsetting the observed 
 data cohort into sub-groups.
+
   <div class="row">
     <div class = "box">
-      <div class = "4u 12u$(medium)"
+      <div class = "4u 12u$(medium)">
       <table>
  <thead>
   <tr>
@@ -173,11 +174,7 @@ data cohort into sub-groups.
 </table>
       </div>
     </div>
-    <div class="box">
-      <div class= "4u 12u$(medium)>
-      more sub group anal
-      </div>
-    </div>
+    
   </div>
   
 </div>
