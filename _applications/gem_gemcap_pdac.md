@@ -2,22 +2,23 @@
 layout: app
 title: Gemcitabine Vs Gemcitabine plus Capecitabine
 area: PDAC
-description:  A CFM model to predict and compare the response of gemcitabine capecitabine patients to treatment with monotherapy gemcitabine
+description:  A CFM model to predict and compare the response of gemcitabine capecitabine treated patients to treatment with monotherapy gemcitabine
 ---
 
 ## Executive Summary
 
-<p>The survival outcome of patients that received gemcitabine plus capecitabine (GEMCAP)
-GEMCAP (experimental treatment) were compared against a 
-counterfactual model (CFM). The CFM predicts the survival outcome
-of patients if they had been treated with monotherapy gemcitabine (GEM). </p>
+<p>The observed survival outcome of patients treated with gemcitabine plus capecitabine (GEMCAP)
+GEMCAP (experimental treatment) were compared against the predicted 
+response of monotherapy gemcitabine (GEM) (control treatment). A counterfactual
+model (CFM) is used to estimate the expected response of patients
+had they been treated with GEM. </p>
 
 <div class="box">
 
-<h2 id="sett">Model setting and Data</h2>
+<h2 id="sett">Data</h2>
 
-<h3 id="data">Data </h3>
-<p>Data were taken from the European Study Group for PAncreatic Cancer
+<h3 id="data">Data cohort for comparison against the CFM </h3>
+<p>Observed patient data, to compare against the CFM, were taken from the European Study Group for PAncreatic Cancer
 (ESPAC-4) Study- A randomised  controlled phase III trial that compared
 the effect of adjuvant combination chemotherapy of gemcitabine and 
 capecitabine (GEMCAP) versus monotherapy gemcitabine (GEM) in patients 
@@ -29,8 +30,11 @@ with resected pancreatic ductal adenocarcinoma. </p>
   	  <div class="box">
     		<h4> Patients </h4>
     		<p> 
-    		Eligible patients had undergone complete macroscopic resection
-    		for ductal adenocarcinoma of the pancreas (R0 or R1)
+    		The ESPAC-4 dataset consisted of 732 patients in total.
+    		Only patients that had been treated with GEMCAP were included 
+    		as part of the data cohort for comparison, resulting in a total
+    		of 362 patients. 
+    		
     		</p>
     	</div>	
   	</div>
@@ -57,22 +61,28 @@ with resected pancreatic ductal adenocarcinoma. </p>
   </div>
 </div>
 </div>
-## Description of model
 
+<div class= "box">
+
+<h2 id="desc"> Description of model </h2>
+<h3 id="cfm"> Gemcitabine CFM </h3>
 <p>
-The GEM CFM model was used as a control to compare the predicted performance of GEM treatment
-with the actual observed performance of GEMCAP treatments on ESPAC-4 patients.
+The GEM CFM model was used to generate counterfactual evidence had the ESPAC-4 data
+cohort been treated with GEM. The actual observed response of patients treated
+with GEMCAP were then compared against the model's expected response of the 
+data cohort.
 </p>
 
 
 <p>
-The GEM model and the details of the ESPAC-3 study used to build the model can be found here: 
+The GEM model and the details of the data used to build the model can be found here: 
 <a href="https://richjjackson.github.io/mecPortal//models/pdac_gem.html">Visit GEM model</a>
 </p>
 
 ## description of data
 
 pscVis example
+</div>
 
 <div class = "box">
 <h2 id="Analysis"> Analysis </h2>
@@ -216,13 +226,31 @@ data cohort into sub-groups.<br> </p>
 </body>
 </div>
 
-## Conclusions
+<div class = "box">
+<h2 id="conclusion"> Conclusions </h2>
+<p>
+CFMs can be used to predict and compare patient level outcomes. <br>
+In this example, the GEM CFM was compared against a data cohort that had been treated
+with GEMCAP. The comparison showed that GEMCAP was the more effective treatment. <br>
+</p>
+<p>
+Sub-group effects can be looked at by only including patients within a certain group
+in the data cohort.
+</p>
+</div>
 
 
-## Reference
-
-Give details of the models
-
+<div class="box">
+<h1 id="valid"> References </h1> 
+<p>
+Details on the ESPAC-4 trial from which the data cohort were taken from can be found at: <br>
+Neoptolemos, J.P. et al. (2017) ‘Comparison of adjuvant gemcitabine and capecitabine with gemcitabine monotherapy in patients with resected pancreatic cancer (ESPAC-4): a multicentre, open-label, randomised, phase 3 trial’, The Lancet (British edition), 389(10073), pp. 1011–1024. Available at: https://doi.org/10.1016/S0140-6736(16)32409-6.
+</p>
+<p>
+Details on the gem model can be found
+<a href="https://richjjackson.github.io/mecPortal//models/pdac_gem.html">here</a>
+</p>
+</div>
 
 
 
