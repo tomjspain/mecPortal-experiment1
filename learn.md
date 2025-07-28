@@ -15,7 +15,7 @@ nav-menu: true
 		<header class="major">
 			<h2>Learn more about Personalised Synthetic Controls</h2>
 		</header>
-		<p> Learn more about the theroy and application of Personalised Synthetic Controls.</p>
+		<p> Learn more about the theory and application of Personalised Synthetic Controls.</p>
 	</div>
 </section>
 
@@ -31,7 +31,7 @@ nav-menu: true
 				<header class="major">
 					<h3> Methods </h3>
 				</header>
-				<p>Get Details on Personalised Synthetic Controls.  Learn how they are developed and how they work, including likelihood defintions and Bayesian Estimation procedures</p>
+				<p>Get Details on Personalised Synthetic Controls.  Learn how they are developed and how they work, including likelihood definitions and Bayesian Estimation procedures</p>
 				<ul class="actions">
 					<li><a href="learn/methods_land.html" class="button">Learn more</a></li>
 				</ul>
@@ -82,7 +82,7 @@ nav-menu: true
 				<header class="major">
 					<h3> Causal Inference </h3>
 				</header>
-				<p> Personalised Synthetic Controls can be a tools for causal inference - find out what makes them casual and what assumptions are required!</p>
+				<p> Personalised Synthetic Controls can be a tools for causal inference - find out what makes them causal and what assumptions are required!</p>
 				<ul class="actions">
 					<li><a href="learn/causal_land.html" class="button">Learn more</a></li>
 				</ul>
