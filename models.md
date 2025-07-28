@@ -14,4 +14,3 @@ nav-menu: true
   <h2>{{ model.name }} - {{ model.disease }}</h2>
   <p>{{ model.content | markdownify }}</p>
 {% endfor %}
-
