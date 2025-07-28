@@ -30,26 +30,33 @@
     
 
       <!-- One -->
-      <div id="tiles" class="alt">
-      <section id="modTiles" class="tiles">
+      
+      <section id="modTiles" class="spotlights">
+        
           {% for model in site.models %}
-	        {% if model.title != 404 %}
-	        <article>
-	          
-        	  <header class="major">
-        	    <h1>
-        	      <a href="{{ site.baseurl }}/{{ model.url }}">
-                {{ model.title }} - {{ model.area }}
-                </a>
-        	    </h1>
-        	    <p>{{ model.description }}</p>
-        	  </header>
-        	  
-          </article>
-      	  {% endif %}
-          {% endfor %}
+  	      {% if model.title != 404 %}
+          <section>   	    
+            <a href="{{ site.baseurl }}/{{ model.url }} "class="image">
+            <img src="{% link assets/images/modelPlane.jpg %}" alt="" data-position="center center" />
+            </a>
+          	      	        
+  	        <div class="content">
+  	          <div class="inner">
+  	            <header class="major">
+  	              <h3>
+  	              <a href="{{ site.baseurl }}/{{ model.url }}">{{ model.title }} - {{ model.area }} 
+  	              </a>
+  	              </h3>
+          	    
+          	    </header>
+          	    <p>{{ model.description }}</p>
+          	  </div>
+          	</div>
+          </section>    
+        	  {% endif %}
+            {% endfor %}
       </section>
-    </div>
+    
 
     </div>
 
