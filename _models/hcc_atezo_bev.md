@@ -98,7 +98,7 @@ event and 250 (55%) did not. The median overall survival (95% CI) was
       </tr>
       <tr>
        <td style="text-align:left;"> ECOG2 </td>
-       <td style="text-align:left;"> 0.25 (5.5%) </td>
+       <td style="text-align:left;"> 25 (5.5%) </td>
       </tr>
       <tr>
        <td style="text-align:left;"> EHS Pos </td>
@@ -126,7 +126,7 @@ event and 250 (55%) did not. The median overall survival (95% CI) was
       </tr>
       <tr>
        <td style="text-align:left;"> AFP </td>
-       <td style="text-align:left;"> 14 (5,42) </td>
+       <td style="text-align:left;"> 2.70 (1.79,3.76) </td>
       </tr>
 </tbody>
 </table>
