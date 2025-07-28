@@ -79,9 +79,7 @@ The GEM model and the details of the data used to build the model can be found h
 <a href="https://richjjackson.github.io/mecPortal//models/pdac_gem.html">Visit GEM model</a>
 </p>
 
-## description of data
 
-pscVis example
 </div>
 
 <div class = "box">
