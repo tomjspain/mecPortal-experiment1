@@ -3,7 +3,7 @@ layout: model
 title: GemCis
 image: assets/images/hcc.jpg
 area: BTC
-description:  A model to describe overall survival in patietns with aHCC
+description:  A model to describe overall survival in patients with aHCC
 ---
 
 
