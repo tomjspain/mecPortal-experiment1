@@ -109,7 +109,7 @@ event and 250 (55%) did not. The median overall survival (95% CI) was
        <td style="text-align:left;"> 290 (64%) </td>
       </tr>
       <tr>
-       <td style="text-align:left;"> BIL </td>
+       <td style="text-align:left;"> Bilirubin </td>
        <td style="text-align:left;"> 1.13 (0.95, 1.34) </td>
       </tr>
       <tr>
@@ -205,23 +205,23 @@ knots were chosen.
 <tbody>
   <tr>
    <td style="text-align:left;"> &gamma;0 </td>
-   <td style="text-align:right;"> -5.48 </td>
-   <td style="text-align:right;"> </td>
+   <td style="text-align:right;"> -5.65 () </td>
+   <td style="text-align:right;"> 0.00 () </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;1 </td>
-   <td style="text-align:right;"> 1.99 </td>
-   <td style="text-align:right;">  </td>
+   <td style="text-align:right;"> 1.98 () </td>
+   <td style="text-align:right;"> 7.27 () </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;2 </td>
-   <td style="text-align:right;"> 0.07 </td>
-   <td style="text-align:right;">  </td>
+   <td style="text-align:right;"> 0.06 () </td>
+   <td style="text-align:right;"> 1.07 () </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;3 </td>
-   <td style="text-align:right;"> 0.41 </td>
-   <td style="text-align:right;"> </td>
+   <td style="text-align:right;"> 0.42 () </td>
+   <td style="text-align:right;"> 1.52 () </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;4 </td>
@@ -230,48 +230,48 @@ knots were chosen.
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;5 </td>
-   <td style="text-align:right;"> 3.56 </td>
-   <td style="text-align:right;">  </td>
+   <td style="text-align:right;"> 3.58 </td>
+   <td style="text-align:right;"> 36.04 () </td>
   </tr>
   <tr>
    <td style="text-align:left;"> ECOG1 </td>
-   <td style="text-align:right;"> 0.27 </td>
-   <td style="text-align:right;"> 1.30 (0.97, 1.76) </td>
+   <td style="text-align:right;"> 0.28 () </td>
+   <td style="text-align:right;"> 1.32 ( ) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> ECOG2 </td>
-   <td style="text-align:right;"> 0.57 </td>
-   <td style="text-align:right;"> 1.77 (0.96, 3.26) </td>
+   <td style="text-align:right;"> 0.59 </td>
+   <td style="text-align:right;"> 1.81 ( ) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> EHS Pos </td>
-   <td style="text-align:right;"> 0.53 </td>
-   <td style="text-align:right;"> 1.70 (1.27, 2.29) </td>
+   <td style="text-align:right;"> 0.52 </td>
+   <td style="text-align:right;"> 1.68 ( ) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Bilirubin </td>
-   <td style="text-align:right;"> 1.43 </td>
-   <td style="text-align:right;"> 4.17 (2.37, 7.35) </td>
+   <td style="text-align:right;"> 1.41 </td>
+   <td style="text-align:right;"> 4.09 (b) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Tumour size </td>
    <td style="text-align:right;"> 0.08 </td>
-   <td style="text-align:right;"> 1.09 (1.03, 1.14) </td>
+   <td style="text-align:right;"> 1.08 (,) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Age </td>
    <td style="text-align:right;"> 0.02 </td>
-   <td style="text-align:right;"> 1.02 (1.00,1.03)</td>
+   <td style="text-align:right;"> 1.02 (,)</td>
   </tr>
   <tr>
    <td style="text-align:left;"> Albumin </td>
-   <td style="text-align:right;"> -0.62 </td>
-   <td style="text-align:right;"> 0.54 (0.40, 0.71) </td>
+   <td style="text-align:right;"> -0.61 </td>
+   <td style="text-align:right;"> 0.54 () </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Alpha-fetoprotein </td>
-   <td style="text-align:right;"> 0.001 </td>
-   <td style="text-align:right;"> 1.00 (1.00, 1.00) </td>
+   <td style="text-align:right;"> 0.07 </td>
+   <td style="text-align:right;"> 1.08 (1.00, 1.00) </td>
   </tr>
 </tbody>
 </table>
