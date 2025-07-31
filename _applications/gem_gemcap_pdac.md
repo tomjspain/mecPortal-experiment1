@@ -228,8 +228,12 @@ data cohort into sub-groups.<br> </p>
 <h2 id="conclusion"> Conclusions </h2>
 <p>
 CFMs can be used to predict and compare patient level outcomes. <br>
-In this example, the GEM CFM was compared against a data cohort that had been treated
-with GEMCAP. The comparison showed that GEMCAP was the more effective treatment. <br>
+In this example, we used a data-cohort of patients that
+were treated with an experimental treatment and a CFM that was used
+to predict the survival of the same data-cohort when treatead with 
+GEM (a control). The GEM CFM survival predictions were compared with
+the actual outcome of the GEM treatment. 
+The comparison showed that GEMCAP was the more effective treatment. <br>
 </p>
 <p>
 Sub-group effects can be looked at by only including patients within a certain group
