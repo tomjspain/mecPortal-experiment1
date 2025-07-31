@@ -205,73 +205,73 @@ knots were chosen.
 <tbody>
   <tr>
    <td style="text-align:left;"> &gamma;0 </td>
-   <td style="text-align:right;"> -5.65 () </td>
-   <td style="text-align:right;"> 0.00 () </td>
+   <td style="text-align:right;"> -5.65 (1.02) </td>
+   <td style="text-align:right;"> 0.00 (0 - 0.026) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;1 </td>
-   <td style="text-align:right;"> 1.98 () </td>
-   <td style="text-align:right;"> 7.27 () </td>
+   <td style="text-align:right;"> 1.98 (0.47) </td>
+   <td style="text-align:right;"> 7.27 (2.906 - 18.173) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;2 </td>
-   <td style="text-align:right;"> 0.06 () </td>
-   <td style="text-align:right;"> 1.07 () </td>
+   <td style="text-align:right;"> 0.06 (0.25) </td>
+   <td style="text-align:right;"> 1.07 (0.655 - 1.738) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;3 </td>
-   <td style="text-align:right;"> 0.42 () </td>
-   <td style="text-align:right;"> 1.52 () </td>
+   <td style="text-align:right;"> 0.42 (0.5) </td>
+   <td style="text-align:right;"> 1.52 (0.57 - 4.049) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;4 </td>
-   <td style="text-align:right;"> -1.61 </td>
-   <td style="text-align:right;">  </td>
+   <td style="text-align:right;"> -1.62 (0.67) </td>
+   <td style="text-align:right;">  0.2 (0.053 - 0.728) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;5 </td>
-   <td style="text-align:right;"> 3.58 </td>
-   <td style="text-align:right;"> 36.04 () </td>
+   <td style="text-align:right;"> 3.58  (1.18) </td>
+   <td style="text-align:right;"> 36.04 (3.578 - 363.04) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> ECOG1 </td>
-   <td style="text-align:right;"> 0.28 () </td>
-   <td style="text-align:right;"> 1.32 ( ) </td>
+   <td style="text-align:right;"> 0.28 (0.15) </td>
+   <td style="text-align:right;"> 1.32 (0.981 - 1.78) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> ECOG2 </td>
-   <td style="text-align:right;"> 0.59 </td>
-   <td style="text-align:right;"> 1.81 ( ) </td>
+   <td style="text-align:right;"> 0.59 (0.31) </td>
+   <td style="text-align:right;"> 1.81 (0.981 - 3.333) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> EHS Pos </td>
-   <td style="text-align:right;"> 0.52 </td>
-   <td style="text-align:right;"> 1.68 ( ) </td>
+   <td style="text-align:right;"> 0.52 (0.15) </td>
+   <td style="text-align:right;"> 1.68 (1.248 - 2.251) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Bilirubin </td>
-   <td style="text-align:right;"> 1.41 </td>
-   <td style="text-align:right;"> 4.09 (b) </td>
+   <td style="text-align:right;"> 1.41 (0.29) </td>
+   <td style="text-align:right;"> 4.09 4.09 (2.326 - 7.208) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Tumour size </td>
-   <td style="text-align:right;"> 0.08 </td>
-   <td style="text-align:right;"> 1.08 (,) </td>
+   <td style="text-align:right;"> 0.08 (0.03) </td>
+   <td style="text-align:right;"> 1.08 (1.03 - 1.141) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Age </td>
-   <td style="text-align:right;"> 0.02 </td>
-   <td style="text-align:right;"> 1.02 (,)</td>
+   <td style="text-align:right;"> 0.02 (0.01) </td>
+   <td style="text-align:right;"> 1.02 (1.002 - 1.03) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Albumin </td>
-   <td style="text-align:right;"> -0.61 </td>
-   <td style="text-align:right;"> 0.54 () </td>
+   <td style="text-align:right;"> -0.61 (0.14) </td>
+   <td style="text-align:right;"> 0.54 (0.408 - 0.72) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Alpha-fetoprotein </td>
-   <td style="text-align:right;"> 0.07 </td>
-   <td style="text-align:right;"> 1.08 (1.00, 1.00) </td>
+   <td style="text-align:right;"> 0.07 (0.06) </td>
+   <td style="text-align:right;"> 1.08 ((0.959 - 1.209)) </td>
   </tr>
 </tbody>
 </table>
@@ -339,15 +339,15 @@ knots were chosen.
 <tbody>
   <tr>
    <td style="text-align:left;"> C-Statistic </td>
-   <td style="text-align:left;"> 0.69 (0.018) </td>
+   <td style="text-align:left;"> 0.70 (0.017) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Slope </td>
-   <td style="text-align:left;"> 1.00 (0.102) </td>
+   <td style="text-align:left;"> 1.00 (0.101) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Somers' D </td>
-   <td style="text-align:left;"> 0.39 </td>
+   <td style="text-align:left;"> 0.41 </td>
   </tr>
 </tbody>
 </table>
@@ -372,18 +372,18 @@ knots were chosen.
       </tr>
       <tr>
        <td style="text-align:left;">  Risk Group 2 </td>
-       <td style="text-align:left;">  0.88 (0.52) </td>
-       <td style="text-align:left;"> 2.42 (0.88, 6.65) </td>
+       <td style="text-align:left;">  0.06 (0.26) </td>
+       <td style="text-align:left;"> 1.06 (0.63, 1.77) </td>
       </tr>
       <tr>
        <td style="text-align:left;"> Risk Group 3 </td>
-       <td style="text-align:left;">  1.77 (0.51) </td>
-       <td style="text-align:left;">  5.85 (2.14, 15.96) </td>
+       <td style="text-align:left;">  1.06 (0.24) </td>
+       <td style="text-align:left;">  2.89 (1.81, 4.61) </td>
       </tr>
       <tr>
        <td style="text-align:left;"> Risk Group 4 </td>
-       <td style="text-align:left;"> 2.59 (0.53) </td>
-       <td style="text-align:left;"> 13.34 (4.76, 37.37) </td>
+       <td style="text-align:left;"> 1.82 (0.26) </td>
+       <td style="text-align:left;"> 6.20 (3.70, 10.37) </td>
       </tr>
     </tbody>
     </table>
