@@ -27,7 +27,7 @@ Details on Model Estimated Controls as a tool for Causal Inference
 				<header class="major">
 					<h3> MEC and Causal Inference </h3>
 				</header>
-				<p> Understand potential outcomes and how MEC make use fo these to make Causal Inference Statements </p>
+				<p> Understand potential outcomes and how MEC make use for these to make Causal Inference Statements </p>
 				<ul class="actions">
 					<li><a href="learn/causal_psc.html" class="button">Learn more</a></li>
 				</ul>
