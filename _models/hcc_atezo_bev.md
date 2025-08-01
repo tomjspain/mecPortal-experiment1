@@ -160,7 +160,7 @@ event and 250 (55%) did not. The median overall survival (95% CI) was
 
 <p> The model constructed was a flexible parametric survival model using
 a spline function to model the underlying cumulative hazard function. Four internal
-knots were chosen. 
+knots were chosen and were placed at the timepoints 3, 6 12, and 24 months. 
 </p>
 
 <div class="row 200%">
