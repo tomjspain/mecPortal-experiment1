@@ -39,7 +39,11 @@ America, Australia and Africa.
   		A liver function score. Patients had to have an Eastern Cooperative
   		Oncology Group (ECOG) Score of 0 or 1 and at least
   		one untreated measurable lesion by computed tomography or 
-  		magnetic resonance imaging. </p>
+  		magnetic resonance imaging. 
+  		Patients with any prior use of systemic anticancer chemotherapy,
+  		immunotherapy or targeted agents for HCC (except for sorafenib)
+  		were excluded.
+  		</p>
   	  </div>	
 	  </div>
 	  

@@ -16,29 +16,45 @@ description: A model to describe progression free survival in patients with HCC
 <h2>Setting </h2>
 
 <p>
-Data were taken from 
+Data were taken from the BRISK-FL study- a randomised phase III study to 
+compare the overall survival of brivanib versus sorafenib in patients
+with advanced HCC (aHCC). Patients were recruited from across Asia, Europe,
+America, Australia and Africa.
 </p>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
 	  <div class="box">
   		<h3> Patients </h3>
-  		<p> Details on the Patients (e.g. inclusion/exclusion criteria from the 
-  		study) </p>
+  		<p> Patients were eligible if they had not received any prior
+  		systemic therapy for aHCC and had a Child-Pugh
+  		A liver function score. Patients had to have an Eastern Cooperative
+  		Oncology Group (ECOG) Score of 0 or 1 and at least
+  		one untreated measurable lesion by computed tomography or 
+  		magnetic resonance imaging. 
+  		Patients with any prior use of systemic anticancer chemotherapy,
+  		immunotherapy or targeted agents for HCC (except for sorafenib)
+  		were excluded.
+  		</p>
   	</div>	
 	</div>
 	<div class="4u 12u$(medium)">
 		  <div class="box">
 		<h3> Intervention </h3>
-		<p> How was the intervention delivered? </p>
-		  	</div>	
+		<p> 
+		Patients received brivanib as 800mg orally every day.
+		</p>
+	</div>	
 	</div>
 	<div class="4u$ 12u$(medium)">
-		  <div class="box">
+	<div class="box">
 		<h3> Outcome </h3>
-		<p> How is the Outcome defined?  E.G. Overall Survival measured as the time 
-		from randomisation until death by any cause </p>
-		  	</div>	
+		<p> 
+		The outcome is progression free survival (PFS) which is 
+		defines as the point from randomisation until radiographic disease
+		progression.
+		</p>
+	</div>	
 	</div>
 </div>
 
@@ -52,7 +68,10 @@ Data were taken from
 
 <h2 id="data">Data</h2>
 
-<p> A description of the data used to generate the model </p>
+<p> 
+The dataset consisted of 480 patients. 323 (67%) patients had observed an event (died)
+and 157 (33%) did not have an observed event.
+</p>
 
 <div class="row 200%">
 	
@@ -61,7 +80,7 @@ Data were taken from
 		<h3>Model covariates</h3>
 		
     <p> The covariates selected for inclusion in the model were Child-Pugh score
-    Creatinine, Portal Vein ad Extrahepatic spread (EHS).
+    Creatinine, Portal Vein and Extrahepatic spread (EHS).
     </p>		
     
 
@@ -102,8 +121,12 @@ Data were taken from
    <td style="text-align:center;"> 83 (17%) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Extrahepatic spread </td>
-   <td style="text-align:center;"> 176 (37%)?? </td>
+   <td style="text-align:center;"> Extrahepatic spread Pos </td>
+   <td style="text-align:center;"> 176 (37%) </td>
+  </tr>
+   <td style="text-align:center;"> Extrahepatic spread Neg </td>
+   <td style="text-align:center;"> 304 (63%) </td>
+  <tr>
   </tr>
 </tbody>
 </table>
@@ -390,9 +413,9 @@ github/richJJackson/pscLibrary/test_model
 
 Details on the trial which provided the data for this model can be found at:
 
-Meyer T, Fox R, Ma YT, Ross PJ, James MW, Sturgess R, Stubbs C, Stocken DD, Wall 
-L, Watkinson A, Hacking N. Sorafenib in combination with transarterial 
-chemoembolisation in patients with unresectable hepatocellular carcinoma (TACE 
-2): a randomised placebo-controlled, double-blind, phase 3 trial. The lancet 
-Gastroenterology & hepatology. 2017 Aug 1;2(8):565-75.
+Johnson, P.J. et al. (2013) ‘Brivanib Versus Sorafenib As First-Line 
+Therapy in Patients With Unresectable, Advanced Hepatocellular Carcinoma:
+Results From the Randomized Phase III BRISK-FL Study’, Journal of clinical 
+oncology, 31(28), pp. 3517–3524. 
+Available at: https://doi.org/10.1200/JCO.2012.48.4410.
 </div>
