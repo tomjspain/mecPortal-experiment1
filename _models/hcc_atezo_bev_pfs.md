@@ -22,7 +22,11 @@ with advanced HCC (aHCC). Patients were recruited from across Asia, Europe,
 America, Australia and Africa.
 </p>
 
+<h2> Estimand </h2>
+
+<div class="box">
 <div class="row">
+
 	<div class="6u 12u$(medium)">
 	  <div class="box">
   		<h3> Patients </h3>
@@ -39,7 +43,7 @@ America, Australia and Africa.
   	</div>	
 	</div>
 	<div class="3u 12u$(medium)">
-		  <div class="box">
+	<div class="box">
 		<h3> Intervention </h3>
 		<p> 
 		Patients received brivanib as 800mg orally every day.
@@ -57,6 +61,8 @@ America, Australia and Africa.
 	</div>	
 	</div>
 </div>
+</div>
+
 
 
 
