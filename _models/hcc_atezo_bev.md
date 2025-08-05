@@ -23,7 +23,8 @@ description:  A model to describe overall survival in patients with aHCC
 <p>
 Data were taken from the BRISK-FL study- a randomised phase III study to 
 compare the overall survival of brivanib versus sorafenib in patients
-with advanced HCC (aHCC).
+with advanced HCC (aHCC). Patients were recruited from across Asia, Europe,
+America, Australia and Africa.
 </p>
 
 <h2> Estimand </h2>
@@ -34,7 +35,11 @@ with advanced HCC (aHCC).
 	    <div class="box">
   		  <h3> Patients </h3>
   		<p> Patients were eligible if they had not received any prior
-  		systemic therapy for aHCC. </p>
+  		systemic therapy for aHCC and had a Child-Pugh
+  		A liver function score. Patients had to have an Eastern Cooperative
+  		Oncology Group (ECOG) Score of 0 or 1 and at least
+  		one untreated measurable lesion by computed tomography or 
+  		magnetic resonance imaging. </p>
   	  </div>	
 	  </div>
 	  
@@ -48,7 +53,9 @@ with advanced HCC (aHCC).
 	  <div class="3u$ 12u$(medium)">
 		  <div class="box">
 		  <h3> Outcome </h3>
-		  <p> Outcome details </p>
+		  <p> The primary outcome is overall survival (OS) measured as the time
+		  from randomisation until death by any cause.
+		  </p>
 		  </div>	
   </div>
 </div>
@@ -429,9 +436,9 @@ github/richJJackson/pscLibrary/test_model
 
 Details on the trial which provided the data for this model can be found at:
 
-Meyer T, Fox R, Ma YT, Ross PJ, James MW, Sturgess R, Stubbs C, Stocken DD, Wall 
-L, Watkinson A, Hacking N. Sorafenib in combination with transarterial 
-chemoembolisation in patients with unresectable hepatocellular carcinoma (TACE 
-2): a randomised placebo-controlled, double-blind, phase 3 trial. The lancet 
-Gastroenterology & hepatology. 2017 Aug 1;2(8):565-75.
+Johnson, P.J. et al. (2013) ‘Brivanib Versus Sorafenib As First-Line 
+Therapy in Patients With Unresectable, Advanced Hepatocellular Carcinoma:
+Results From the Randomized Phase III BRISK-FL Study’, Journal of clinical 
+oncology, 31(28), pp. 3517–3524. 
+Available at: https://doi.org/10.1200/JCO.2012.48.4410.
 </div>
