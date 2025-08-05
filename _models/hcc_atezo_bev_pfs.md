@@ -23,7 +23,7 @@ America, Australia and Africa.
 </p>
 
 <div class="row">
-	<div class="4u 12u$(medium)">
+	<div class="6u 12u$(medium)">
 	  <div class="box">
   		<h3> Patients </h3>
   		<p> Patients were eligible if they had not received any prior
@@ -38,7 +38,7 @@ America, Australia and Africa.
   		</p>
   	</div>	
 	</div>
-	<div class="4u 12u$(medium)">
+	<div class="3u 12u$(medium)">
 		  <div class="box">
 		<h3> Intervention </h3>
 		<p> 
@@ -46,12 +46,12 @@ America, Australia and Africa.
 		</p>
 	</div>	
 	</div>
-	<div class="4u$ 12u$(medium)">
+	<div class="3u$ 12u$(medium)">
 	<div class="box">
 		<h3> Outcome </h3>
 		<p> 
 		The outcome is progression free survival (PFS) which is 
-		defines as the point from randomisation until radiographic disease
+		defined as the point from randomisation until radiographic disease
 		progression.
 		</p>
 	</div>	
