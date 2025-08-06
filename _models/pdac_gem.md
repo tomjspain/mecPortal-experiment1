@@ -3,7 +3,7 @@ layout: model
 title: Gemcitabine OS
 image: assets/images/pancStock.png
 area: PDAC
-description:  A model to describe overall survival in patients with aHCC
+description:  A model to describe overall survival in patients with PDAC
 ---
 
 
@@ -485,17 +485,17 @@ validation set.
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> xrgRisk Group 2 </td>
+   <td style="text-align:left;"> Risk Group 2 </td>
    <td style="text-align:left;"> 0.28 </td>
    <td style="text-align:left;"> 1.33 (0.92-1.91) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> xrgRisk Group 3 </td>
+   <td style="text-align:left;"> Risk Group 3 </td>
    <td style="text-align:left;"> 0.43 </td>
    <td style="text-align:left;"> 1.54 (1.06-2.23) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> xrgRisk Group 4 </td>
+   <td style="text-align:left;"> Risk Group 4 </td>
    <td style="text-align:left;"> 0.99 </td>
    <td style="text-align:left;"> 2.7 (1.69-4.33) </td>
   </tr>
@@ -504,6 +504,19 @@ validation set.
     
 </div>
 
+</div>
+  
+  	<div class="6u 12u$(medium)">
+  	  <!-- Image -->
+
+  Kaplan Meier plot to show survival estimates within each of the 4 risk groups
+
+  <span class="image fit"><img src="{% link assets/images/e4_gem_discrim_ka.png %}" alt="" /></span>
+
+
+   </div>
+
+  </div>
 
   </div>
 </div>
