@@ -3,7 +3,7 @@ layout: model
 title: UKCOMPASS
 image: assets/images/hcc.jpg
 area: AAA
-description:  A model to describe overall survival in patietns with aHCC
+description:  A model to describe overall survival in patients with AAA
 ---
 
 

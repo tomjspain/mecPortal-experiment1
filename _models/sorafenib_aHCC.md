@@ -2,8 +2,8 @@
 layout: model
 title: Sorafenib
 image: assets/images/hcc.jpg
-area: aHCC
-description:  A model to describe overall survival in patietns with aHCC
+area: HCC
+description:  A model to describe overall survival in patients with aHCC
 ---
 
 
