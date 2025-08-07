@@ -31,11 +31,18 @@
 
       <!-- One -->
       
+      {% assign model_areas = site.models | group_by: "area" %}
+
+      {% for group in model_areas %}      
       <section id="modTiles" class="spotlights">
+          <header class="major">
+            <h2>{{ group.name }}</h2>
+          </header>
         
-          {% for model in site.models %}
+        
+          {% for model in group.items %}
   	      {% if model.title != 404 %}
-          <section>   	    
+          <section> 
             <a href="{{ site.baseurl }}/{{ model.url }} "class="image">
             <img src={{model.image}} alt="" data-position="center center" />
             </a>
@@ -55,8 +62,8 @@
           </section>    
         	  {% endif %}
             {% endfor %}
-      </section>
-    
+          </section>
+          {% endfor %}
 
     </div>
 
