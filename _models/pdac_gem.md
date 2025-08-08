@@ -376,7 +376,7 @@ validation set.
 <tbody>
   <tr>
    <td style="text-align:left;"> C-Statistic </td>
-   <td style="text-align:left;"> 0.65 (0.018) </td>
+   <td style="text-align:left;"> 0.65 (0.016) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Slope </td>
@@ -384,7 +384,7 @@ validation set.
   </tr>
   <tr>
    <td style="text-align:left;"> Somers' D </td>
-   <td style="text-align:left;"> 0.33 </td>
+   <td style="text-align:left;"> 0.30 </td>
   </tr>
 </tbody>
 </table>
