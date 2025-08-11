@@ -61,7 +61,7 @@ Details on Model Estimated Controls as a tool for Causal Inference
 				<header class="major">
 					<h3> MECs and other CI tools  </h3>
 				</header>
-				<p> How do MECs compare against other Causal Infercne tools?</p>
+				<p> How do MECs compare against other Causal Inference tools?</p>
 				<ul class="actions">
 					<li><a href="causal_psc_gg.html" class="button">Learn more</a></li>
 				</ul>
