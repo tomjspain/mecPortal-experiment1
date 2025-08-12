@@ -1,10 +1,9 @@
 ---
-layout: page
-title:  "How to use Model Esitmated Controls"
+layout: post
+title:  "How to use Model Estimated Controls"
 date: 2025-03-12
 categories: [methods]
 description: How do Model Estimated Controls work?
-image: assets/images/modelPlane.jpg
 ---
 
 
