@@ -48,12 +48,14 @@ description: How do Model Estimated Controls work?
         <h3> Other CI tools </h3>
       </header>
       <p>
-      Multivariable modelling, G-estimation, Instrumental Variables,
-      Propensity Score Analysis, Targeted Maximum Likelihood Estimations
-      are other CI tools that have been developed. These tools 
-      aim to estimate an average treatment effect. These methods 
+      G-estimation and Targeted Maximum Likelihood Estimations (TMLEs)
+      are also CI tools that have been developed. These tools 
+      aim to estimate an average treatment effect and 
       require patient level observational datasets from both the 
       control group and the experimental treatment group.
+      G-estimation and TMLE compare the expected outcome under each
+      treatment group and compare these expectations to derive an
+      average treatment effect.
       </p>
     </div>
   </div>
