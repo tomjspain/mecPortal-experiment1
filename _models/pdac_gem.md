@@ -110,49 +110,49 @@ Median Overall Survival (95% CI) was 22.8 (21.2 - 27.2) months.
       <table>
  <thead>
   <tr>
-   <th style="text-align:left;"> Characteristic </th>
+   <th style="text-align:left;"> Covariate </th>
    <th style="text-align:left;"> N = 339 </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> Resec </td>
+   <td style="text-align:left;"> Resection Margin </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Neg </td>
+   <td style="text-align:left;">  &nbsp;&nbsp;Negative </td>
    <td style="text-align:left;"> 206 (61%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Pos </td>
+   <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;Positive </td>
    <td style="text-align:left;"> 133 (39%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Diff status </td>
+   <td style="text-align:left;"> Tumour differentiation</td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Poor </td>
+   <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;Poor </td>
    <td style="text-align:left;"> 85 (25%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Moderate </td>
+   <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;Moderate </td>
    <td style="text-align:left;"> 214 (63%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Well </td>
+   <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;Well </td>
    <td style="text-align:left;"> 40 (12%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> LymphN </td>
+   <td style="text-align:left;"> Lymph Nodes </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Neg </td>
+   <td style="text-align:left;">  &nbsp;&nbsp;&nbsp;&nbsp;Negative </td>
    <td style="text-align:left;"> 97 (29%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Pos </td>
+   <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;Positive </td>
    <td style="text-align:left;"> 242 (71%) </td>
   </tr>
   <tr>

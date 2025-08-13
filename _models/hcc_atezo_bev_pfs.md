@@ -97,41 +97,53 @@ and 157 (33%) did not have an observed event.
 
  <thead>
   <tr>
-   <th style="text-align:center;"> Characteristic </th>
-   <th style="text-align:center;"> N = 480 </th>
+   <th style="text-align:left;"> Covariate </th>
+   <th style="text-align:left;"> N = 480 </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:center;"> Child-Pugh score 5 </td>
-   <td style="text-align:center;"> 310 (65%) </td>
+   <td style="text-align:left;"> Child-Pugh Score </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Child-Pugh score 5+ </td>
-   <td style="text-align:center;"> 79 (67,97) </td>
+    <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;5 </td>
+    <td style="text-align:left;"> 310 (65%) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Creatinine </td>
-   <td style="text-align:center;"> 79 (0.36) </td>
+   <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;5+ </td>
+   <td style="text-align:left;"> 79 (67,97) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Portal vein none </td>
-   <td style="text-align:center;"> 316 (66%) </td>
+   <td style="text-align:left;"> Creatinine </td>
+   <td style="text-align:left;"> 79 (0.36) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Portal vein branch </td>
-   <td style="text-align:center;"> 81 (17%) </td>
+   <td style="text-align:left;"> Portal Vein </td>
+   <td style="text-align:left;"> </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Portal vein IVC/Main </td>
-   <td style="text-align:center;"> 83 (17%) </td>
+    <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;None </td>
+    <td style="text-align:left;"> 316 (66%) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Extrahepatic spread Pos </td>
-   <td style="text-align:center;"> 176 (37%) </td>
+   <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;Branch </td>
+   <td style="text-align:left;"> 81 (17%) </td>
   </tr>
-   <td style="text-align:center;"> Extrahepatic spread Neg </td>
-   <td style="text-align:center;"> 304 (63%) </td>
+  <tr>
+   <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;IVC/Main </td>
+   <td style="text-align:left;"> 83 (17%) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Extra-hepatic Spread </td>
+   <td style="text-align:left;"> 176 (37%) </td>
+  </tr>
+  <tr>
+    <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;Positive</td>
+    <td style="text-align:left;"> 176 (36%) </td>
+  </tr>
+   <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;Negative </td>
+   <td style="text-align:left;"> 304 (63%) </td>
   <tr>
   </tr>
 </tbody>

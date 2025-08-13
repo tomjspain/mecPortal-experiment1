@@ -88,36 +88,44 @@ event and 250 (55%) did not. The median overall survival (95% CI) was
 		<h3>Model Covariates</h3>
 		
 		<p> The covariates selected for inclusion in the model were<br>
-		Eastern Cooperative Oncology Group (ECOG) score, extra-hepatic spread (EHS), 
+		Eastern Cooperative Oncology Group (ECOG) Score, Extra-hepatic spread (EHS), 
 		bilirubin (BIL), tumour size, age, albumin (ALB) and alpha-fetoprotein (AFP) </p>
 		
       <div class="table-wrapper">
       <table>
  <thead>
   <tr>
-   <th style="text-align:left;"> Characteristic </th>
+   <th style="text-align:left;"> Covariate </th>
    <th style="text-align:left;"> N = 454 </th>
   </tr>
  </thead>
 <tbody>
       <tr>
-       <td style="text-align:left;"> ECOG0 </td>
-       <td style="text-align:left;"> 199 (44%) </td>
+       <td style="text-align:left;"> ECOG Score</td>
+       <td style="text-align:left;"> </td>
       </tr>
       <tr>
-       <td style="text-align:left;"> ECOG1 </td>
+        <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;0 </td>
+        <td style="text-align:left;"> 199 (44%) </td>
+      </tr>
+      <tr>
+       <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;1 </td>
        <td style="text-align:left;"> 230 (51%) </td>
       </tr>
       <tr>
-       <td style="text-align:left;"> ECOG2 </td>
+       <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;2 </td>
        <td style="text-align:left;"> 25 (5.5%) </td>
       </tr>
       <tr>
-       <td style="text-align:left;"> EHS Pos </td>
-       <td style="text-align:left;"> 164 (36%) </td>
+       <td style="text-align:left;"> Extra-hepatic Spread </td>
+       <td style="text-align:left;">  </td>
       </tr>
       <tr>
-       <td style="text-align:left;"> EHS Neg </td>
+        <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;Positive </td>
+        <td style="text-align:left;"> 164 (36%) </td>
+      </tr>
+      <tr>
+       <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;Negative </td>
        <td style="text-align:left;"> 290 (64%) </td>
       </tr>
       <tr>
@@ -125,7 +133,7 @@ event and 250 (55%) did not. The median overall survival (95% CI) was
        <td style="text-align:left;"> 1.13 (0.95, 1.34) </td>
       </tr>
       <tr>
-       <td style="text-align:left;"> Tumour size </td>
+       <td style="text-align:left;"> Tumour Size </td>
        <td style="text-align:left;"> 7.35 (5.57, 9.64) </td>
       </tr>
       <tr>
