@@ -5,10 +5,10 @@ area: PDAC
 description:  A CFM model to predict and compare the response of gemcitabine capecitabine treated patients to treatment with monotherapy gemcitabine
 ---
 
-## Executive Summary
+
 
 <p>The observed survival outcome of patients treated with gemcitabine plus capecitabine (GEMCAP)
-GEMCAP (experimental treatment) were compared against the predicted 
+(experimental treatment) were compared against the predicted 
 response of monotherapy gemcitabine (GEM) (control treatment). A counterfactual
 model (CFM) is used to estimate the expected response of patients
 had they been treated with GEM. </p>
@@ -92,7 +92,7 @@ The GEM model and the details of the data used to build the model can be found h
     <p> 
     The average expected survival estimate of the CFM (control treatment -GEM) and the
     average observed survival estimate of the GEMCAP patients is shown below to 
-    visualise the comparison of the GEM CFM (pink) vs GEMCAP treatment (orange) <br>
+    visualise the comparison of the GEM CFM (pink) vs GEMCAP treatment (orange). <br>
     </p>
     <span class="image fit">
       <img src="{% link assets/images/e3gem_vs_e4gemcap.png %}" alt="" />
