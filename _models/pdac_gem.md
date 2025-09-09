@@ -15,6 +15,16 @@ description:  A model to describe overall survival in patients with PDAC
 <!------------------------>
 <!------------------------>
 
+
+
+<div>
+    <ul class="actions">
+      <li><a href="#" class="button special">Rshiny</a></li>
+    </ul>
+  </div>
+
+
+
 <div class="box">
 
 <h1 id="sett">Setting and Data</h1>
@@ -28,27 +38,32 @@ randomised post surgery.  Patients were recruited from 159 pancreatic cancer
 centers in Europe, Australasia, Japan, and Canada
 </p>
 
+
+<div class="box" style="background-color: #796878 ;">
 <h2> Estimand </h2>
-<div class="box">
   <div class="row">
   	
-  	<div class="6u 12u$(medium)">
+  	<div class="7u 12u$(medium)">
   	  <div class="box">
-    		<h3> Patients </h3>
+    		<h4> Eligibility criteria </h4>
     		<p> Patients were eligible if they had undergone complete macroscopic (R0 
     		or R1) resection for ductal adenocarcinoma of the pancreas with 
     		histological confirmation and with no evidence of malignant ascites, 
     		peritoneal metastasis, or spread to the liver or other distant abdominal 
     		or extra-abdominal organs. Patients had to be fully recovered from the 
     		operation, with a World Health Organization performance score of 2 or 
-    		lower and a life expectancy of more than 3 months. Patients with previous 
+    		lower and a life expectancy of more than 3 months.
+    		</p>
+    		<p>
+    		<h4> Exclusion criteria </h4>
+    		Patients with previous 
     		use of neoadjuvant chemotherapy or other concomitant chemotherapy and with 
     		pancreatic lymphoma, macroscopically remaining tumor (R2 resection), or 
     		TNM stage IVb disease were excluded. </p>
     	</div>	
   	</div>
   	
-  	<div class="3u 12u$(medium)">
+  	<div class="5u 12u$(medium)">
   		<div class="box">
   		<h3> Intervention </h3>
   		<p> Patients received gemcitabine as 1000 mg/m<sup>2</sup> intravenous infusion once a 
@@ -56,7 +71,7 @@ centers in Europe, Australasia, Japan, and Canada
   		</div>	
   	</div>
   	
-  	<div class="3u$ 12u$(medium)">
+  	<div class="5u$ 12u$(medium)">
   		<div class="box">
   		<h3> Outcome </h3>
   		<p> The outcome is Overall Survival measured as the point from randomisation 
@@ -82,7 +97,7 @@ centers in Europe, Australasia, Japan, and Canada
 <!------------------------>
 <!------------------------>
 
-
+<div class="box" style="background-color: #856088;">
 <h2 id="data">Data</h2>
 
 <p> Data considered for inclusion in the model were observed from the baseline
@@ -93,6 +108,7 @@ Size, Diabetes status and Post-operative CA19.9</p>
 
 <p> The dataset included 339 patients of whom 267 (79%) observed an event (died). 
 Median Overall Survival (95% CI) was 22.8 (21.2 - 27.2) months.
+</p>
 
 <div class="row 200%">
 	
@@ -116,7 +132,7 @@ Median Overall Survival (95% CI) was 22.8 (21.2 - 27.2) months.
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> Resection Margin </td>
+   <td style="text-align:left;"> <b>Resection Margin</b> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -128,7 +144,7 @@ Median Overall Survival (95% CI) was 22.8 (21.2 - 27.2) months.
    <td style="text-align:left;"> 133 (39%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Tumour differentiation</td>
+   <td style="text-align:left;"> <b>Tumour differentiation</b> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -144,7 +160,7 @@ Median Overall Survival (95% CI) was 22.8 (21.2 - 27.2) months.
    <td style="text-align:left;"> 40 (12%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Lymph Nodes </td>
+   <td style="text-align:left;"> <b>Lymph Nodes</b> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -156,7 +172,7 @@ Median Overall Survival (95% CI) was 22.8 (21.2 - 27.2) months.
    <td style="text-align:left;"> 242 (71%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> log(PostOp CA19-9) </td>
+   <td style="text-align:left;"> <b>log(PostOp CA19-9)</b> </td>
    <td style="text-align:left;"> 3.04 (2.30, 4.14) </td>
   </tr>
 </tbody>
@@ -177,6 +193,7 @@ Median Overall Survival (95% CI) was 22.8 (21.2 - 27.2) months.
   </div>
      <!-- End Image -->
   </div>
+</div>
 
 
 
@@ -189,7 +206,7 @@ Median Overall Survival (95% CI) was 22.8 (21.2 - 27.2) months.
 <!------------------------>
 
 
-<div class="box">
+<div class="box" style="background-color: #8a496b;">
 <h1 id="data"> Model </h1>
 
 <p> The model consturcuted was a flexible parametric survival model using a 
@@ -242,62 +259,62 @@ was constructed and single terms removed in an itterative fashion.  </p>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> &gamma;0 </td>
+   <td style="text-align:left;"> &gamma;<sub>0</sub> </td>
    <td style="text-align:left;"> -11.38 (1.56) </td>
    <td style="text-align:left;">  0 (0 - 0) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> &gamma;1 </td>
+   <td style="text-align:left;"> &gamma;<sub>1</sub> </td>
    <td style="text-align:left;"> 3.84 (0.79) </td>
    <td style="text-align:left;"> 46.34 (9.86 - 217.7) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> &gamma;2 </td>
+   <td style="text-align:left;"> &gamma;<sub>2</sub> </td>
    <td style="text-align:left;"> 1.29 (2.22) </td>
    <td style="text-align:left;"> 3.64 (0.05 - 284.34) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> &gamma;3 </td>
+   <td style="text-align:left;"> &gamma;<sub>3</sub> </td>
    <td style="text-align:left;"> -1.32 (4.0) </td>
    <td style="text-align:left;"> 0.27 (0 - 643.24) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> &gamma;4 </td>
+   <td style="text-align:left;"> &gamma;<sub>4</sub> </td>
    <td style="text-align:left;"> 1.12 (3.55) </td>
    <td style="text-align:left;"> 3.06 (0 - 3229.93) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> &gamma;5 </td>
+   <td style="text-align:left;"> &gamma;<sub>5</sub> </td>
    <td style="text-align:left;"> -0.89 (2.22) </td>
    <td style="text-align:left;"> 0.41 (0.01 - 31.87) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> &gamma;6 </td>
+   <td style="text-align:left;"> &gamma;<sub>6</sub> </td>
    <td style="text-align:left;"> 0.34 (0.81) </td>
    <td style="text-align:left;"> 1.4 (0.28 - 6.89) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> LymphN Pos </td>
+   <td style="text-align:left;"> Lymph Nodes: Positive Vs Negative </td>
    <td style="text-align:left;"> 0.49 (0.15) </td>
    <td style="text-align:left;"> 1.63 (1.21 - 2.19) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> ResecM Pos </td>
+   <td style="text-align:left;"> Resection Margin: Positive Vs Negative </td>
    <td style="text-align:left;"> 0.18 (0.13) </td>
    <td style="text-align:left;"> 1.20 (0.94 - 1.53) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Diff status Moderate </td>
+   <td style="text-align:left;"> Tumour Differentiation Status Moderate Vs Poor </td>
    <td style="text-align:left;"> -0.42 (0.14) </td>
    <td style="text-align:left;"> 0.66 (0.50 - 0.87) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Diff status Well </td>
+   <td style="text-align:left;"> Tumour Differentiation Status Well Vs Poor </td>
    <td style="text-align:left;"> -0.59 (0.22) </td>
    <td style="text-align:left;"> 0.55 (0.36 - 0.86) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> log(PostOp CA19-9) </td>
+   <td style="text-align:left;"> log(Post-Operative CA19-9) </td>
    <td style="text-align:left;"> 0.27 (0.04) </td>
    <td style="text-align:left;"> 1.31 (1.21 - 1.41) </td>
   </tr>
@@ -328,7 +345,7 @@ was constructed and single terms removed in an itterative fashion.  </p>
 <!------------------------>
 <!------------------------>
 
-<div class="box">
+<div class="box" style="background-color: #563c5c;">
 
 <h1 id="valid"> Validation </h1>
 
@@ -444,6 +461,15 @@ validation set.
 
 <br>
 <h4> External Validation </h4>
+<div class="box">
+<p>
+The model is validated on an external dataset of GEM treated patients
+that took part in the ESPAC-4 study as well as the ESPAC-3 study that
+was used to build the model.  <br>
+The patients were categorised into 4 risk groups determined by the same
+quantiles used for internal validation.
+</p>
+</div>
 <h4> Calibration </h4>
 <div class = "row">
   <div class= "6u 12u$(medium)">
@@ -519,31 +545,32 @@ validation set.
   </div>
 
   </div>
-</div>
 
-</div>
 
 
 
 <!------------------------>
 <!------------------------>
 
-<div class="box">
+<div class="box" style="background-color:#614051;">
 
 <h1 id="valid"> Use this model </h1>
 
 <p> 
-This model is available to download [here](https://github.com/richJJackson/pscLibrary/tree/main/PDAC/Gem_model)
+This model is available to download 
+<a href = "https://github.com/richJJackson/pscRepository/tree/main/Models/PDAC/Gem_model"> here </a>
 </p>
 
 <p>
-Find out more about how models are stored/shared and how you can use them [here](https://github.com/richJJackson/pscLibrary/tree/main/PDAC/Gem_model)
+Find out more about how models are stored/shared and how you can use them 
+<a href= "https://github.com/richJJackson/pscRepository/tree/main/Models"> here </a>
 </p>
 
 
 <p>
 This model has been used to compare the combined therapy GemCap against Gem. 
-Find out how [here](https://github.com/richJJackson/pscLibrary/tree/main/PDAC/Gem_Vs_GemCap)
+Find out how 
+<a href = "https://github.com/richJJackson/pscRepository/blob/main/Applications/Gem_vs_GemCap/gem_vs_gemcap.R"> here </a>
 </p>
 
 </div>
@@ -554,13 +581,16 @@ Find out how [here](https://github.com/richJJackson/pscLibrary/tree/main/PDAC/Ge
 <!------------------------>
 <!------------------------>
 
- <div class="box">
+ <div class="box" style="background-color:#8d4e85; ">
 <h1 id="valid"> References </h1>
 
-Details on the trial which provided the data for this model can be found at:
+<p> 
+Details on the trial which provided the data for this model can be found at: <br>
 
-Neoptolemos JP, Stocken DD, Bassi C, et al. Adjuvant Chemotherapy With 
-Fluorouracil Plus Folinic Acid vs Gemcitabine Following Pancreatic Cancer 
+&nbsp;Neoptolemos JP, Stocken DD, Bassi C, et al. Adjuvant Chemotherapy With 
+Fluorouracil Plus Folinic Acid vs Gemcitabine Following &nbsp;Pancreatic Cancer 
 Resection: A Randomized Controlled Trial. JAMA. 2010;304(10):1073–1081. 
-doi:10.1001/jama.2010.1275
+doi:10.1001/jama.2010.1275 <br>
+<a href = "https://jamanetwork.com/journals/jama/fullarticle/186548" > Link to paper </a>
+</p>
 </div>
