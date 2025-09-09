@@ -1,7 +1,7 @@
 # site settings
 title: mecPortal
 subtitle: A portal for model estimated controls
-email: richj23@gmail.com
+email: richj23@liverpool.ac.uk
 description: A portal to learn and use Model Estimated Controls
 baseurl: /mecPortal # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site

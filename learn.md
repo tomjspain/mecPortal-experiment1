@@ -1,7 +1,7 @@
 ---
 title: Learn More!
 layout: landing
-description: Learn how Personalised Synthetic Controls work and find out how you can use them!
+description: Learn how Model Estimated Controls work and find out how you can use them!
 image: assets/images/blackboard.jpg
 nav-menu: true
 ---
@@ -13,9 +13,15 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Learn more about Personalised Synthetic Controls</h2>
+			<h1>What are Model Estimated Controls?</h1>
 		</header>
-		<p> Learn more about the theory and application of Personalised Synthetic Controls.</p>
+		<p> Model estimated controls (MECs) are statistical models that can be used 
+		to assess the efficacy of new therapies without needing to use clinical trials.
+    </p>
+    <p>
+    MECs can act as counterfactual evidence (a way to predict ‘what if?’)- 
+    i.e., how would patients respond if they had received a different treatment?
+    </p>
 	</div>
 </section>
 
