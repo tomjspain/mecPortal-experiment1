@@ -19,7 +19,7 @@ description:  A model to describe overall survival in patients with PDAC
 
 <div>
     <ul class="actions">
-      <li><a href="#" class="button special">Rshiny</a></li>
+      <li><a href="http://104.248.163.38:3838/pdacShiny/" class="button special">Rshiny</a></li>
     </ul>
   </div>
 
@@ -328,7 +328,7 @@ was constructed and single terms removed in an itterative fashion.  </p>
     <h3> Model Prediction</h3>
     See how this model can be used to predict survival!
     <ul class="actions">
-      <li><a href="#" class="button special">Rshiny</a></li>
+      <li><a href="http://104.248.163.38:3838/pdacShiny/" class="button special">Rshiny</a></li>
     </ul>
   </div>
  
