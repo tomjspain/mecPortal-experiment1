@@ -49,15 +49,15 @@ description: How do Model Estimated Controls work?
 <div class="box" style="background-color:#8a496b;">
 <section id="an-example" class="level2">
 <h2 class="anchored" data-anchor-id="an-example">An example</h2>
-<p>In this example, we will look at survival outcomes in patients with pancreatic cancer from the ESPAC (European Study for Pancreatic Cancer)-4 trial and compare how the survival of patients differs with two different treatments…</p>
-<p>Load the model that will act as the control treatment (CFM). This model is a flexible parametric model that was created using the ‘flexsurv’ package.</p>
+<p>In this example, we will look at survival outcomes in patients with pancreatic cancer from the ESPAC (European Study for Pancreatic Cancer)-4 trial and compare how the survival of patients differs with two different treatments:<a href="../applications/gem_gemcap_pdac.html" > GEM Vs. GEMCAP… </a></p>
+<p>Load the model that will act as the control treatment (CFM). This model is a flexible parametric model.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">&quot;Output/Models/flsm.R&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">&quot;flsm.R&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Now that we have our control treatment, monotherapy gemcitabine (GEM), we will load the ESPAC-4 dataset. ESPAC-4 consists of patients that have been treated with the experimental treatment, adjuvant gemcitabine and capecitabine, GEMCAP.</p>
-<p>Our aim is to compare the ESPAC-4 dataset against the GEM model to determine which of the treatments is more effective.</p>
+<p>Our aim is to compare the patients treated with GEMCAP in the ESPAC-4 dataset against the GEM model to determine which of the treatments is more effective.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">&quot;Data/espac4gemcap.R&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">&quot;espac4gemcap.R&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 </div>
@@ -1079,7 +1079,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 </div> <!-- /content -->
 
+<div class="box" style= "background-color: #58427c ;">
+<section id="more-details" class="level2">
+<h2 class="anchored" data-anchor-id="more-details">More details!</h2>
+<li>More details on GEM model vs GEMCAP patients can be found <a href="../applications/gem_gemcap_pdac.html"> here. </a></li>
+<li> <a href="https://github.com/kusqaum/PDAC/blob/main/howto_surv_k.qmd" >Code for tutorial is available </a></li>
 
-
+</section>
+</div>
 
 </body>

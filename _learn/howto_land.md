@@ -9,14 +9,9 @@ image: assets/images/modelPlane.jpg
 
 
 
-<div class="box">
-<b>Details on Model Estimated Controls as a tool for Causal Inference</b> <br>
- <p>
-Model estimated controls (MECs) are statistical models that can be used to assess the efficacy of new therapies without needing to use clinical trials.
 
-MECs can act as counterfactual evidence (a way to predict 'what if?'- i.e., how would patients respond if they had received a different treatment?)
-</p>
-</div>
+<b>Details on Model Estimated Controls as a tool for Causal Inference</b> <br>
+
 
 <!-- Two -->
 <section id="two" class="spotlights">
