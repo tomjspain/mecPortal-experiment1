@@ -19,7 +19,7 @@ description:  A model to describe overall survival in patients with PDAC
 
 <div>
     <ul class="actions">
-      <li><a href="http://104.248.163.38:3838/pdacShiny/" class="button special">Rshiny</a></li>
+      <li><a href="http://104.248.163.38/shiny/pdacShiny/" class="button special">Rshiny</a></li>
     </ul>
   </div>
 
@@ -206,7 +206,7 @@ Median Overall Survival (95% CI) was 22.8 (21.2 - 27.2) months.
 <!------------------------>
 
 
-<div class="box" style="background-color: #8a496b;">
+<div class="box" style="background-color: #967bb6 ;">
 <h1 id="data"> Model </h1>
 
 <p> The model consturcuted was a flexible parametric survival model using a 
@@ -304,12 +304,12 @@ was constructed and single terms removed in an itterative fashion.  </p>
    <td style="text-align:left;"> 1.20 (0.94 - 1.53) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Tumour Differentiation Status Moderate Vs Poor </td>
+   <td style="text-align:left;"> Tumour Differentiation Status: Moderate Vs Poor </td>
    <td style="text-align:left;"> -0.42 (0.14) </td>
    <td style="text-align:left;"> 0.66 (0.50 - 0.87) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Tumour Differentiation Status Well Vs Poor </td>
+   <td style="text-align:left;"> Tumour Differentiation Status: Well Vs Poor </td>
    <td style="text-align:left;"> -0.59 (0.22) </td>
    <td style="text-align:left;"> 0.55 (0.36 - 0.86) </td>
   </tr>
@@ -328,7 +328,7 @@ was constructed and single terms removed in an itterative fashion.  </p>
     <h3> Model Prediction</h3>
     See how this model can be used to predict survival!
     <ul class="actions">
-      <li><a href="http://104.248.163.38:3838/pdacShiny/" class="button special">Rshiny</a></li>
+      <li><a href="http://104.248.163.38/shiny/pdacShiny/" class="button special">Rshiny</a></li>
     </ul>
   </div>
  

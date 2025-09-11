@@ -20,7 +20,7 @@ Details on Model Estimated Controls as a tool for Causal Inference
 
 	<section>
 		<a href="causal_psc.html" class="image">
-			<img src="{% link assets/images/web.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/jigsaw-pieces.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
