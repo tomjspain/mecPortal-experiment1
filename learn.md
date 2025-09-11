@@ -30,7 +30,7 @@ nav-menu: true
 
 	<section>
 		<a href="learn/methods_land.html" class="image">
-			<img src="{% link assets/images/modelPlane.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/model-of-city.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
