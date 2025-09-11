@@ -29,7 +29,7 @@ image: assets/images/technology.jpg
 				</header>
 				<p> Learn how to use Model Estimated Controls when you have a survival outcome </p>
 				<ul class="actions">
-					<li><a href="https://richjjackson.github.io/psc/" class="button">Learn more</a></li>
+					<li><a href="software_package.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
