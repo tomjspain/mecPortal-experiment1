@@ -13,7 +13,7 @@ response of monotherapy gemcitabine (GEM) (control treatment). A counterfactual
 model (CFM) is used to estimate the expected response of patients
 had they been treated with GEM. </p>
 
-<div class="box">
+<div class="box" style="background-color:#8878c3;">
 
 <h2 id="sett">Data</h2>
 
@@ -62,7 +62,7 @@ with resected pancreatic ductal adenocarcinoma. </p>
 </div>
 </div>
 
-<div class= "box">
+<div class= "box" style="background-color:#b284be;">
 
 <h2 id="desc"> Description of model </h2>
 <h3 id="cfm"> Gemcitabine CFM </h3>
@@ -76,13 +76,13 @@ data cohort.
 
 <p>
 The GEM model and the details of the data used to build the model can be found here: 
-<a href="https://richjjackson.github.io/mecPortal//models/pdac_gem.html">Visit GEM model</a>
+<a href="../models/pdac_gem.html">Visit GEM model</a>
 </p>
 
 
 </div>
 
-<div class = "box">
+<div class = "box" style="background-color:#796878;">
 <h2 id="Analysis"> Analysis </h2>
 <body>
 <div class="row">
@@ -153,12 +153,14 @@ The GEM model and the details of the data used to build the model can be found h
 
 
 
-<div class = "box">
+<div class = "box" style="background-color:#b784a7;">
 <h2 id="Sub-group"> Sub-group analysis </h2>
 <body>
 <p>
 Sub-group effects are investigated by subsetting the observed 
-data cohort into sub-groups.<br> </p>
+data cohort into sub-groups.<br> 
+<a href="https://github.com/kusqaum/PDAC/blob/main/gem_vs_gemcap.R"> Code for the sub-group analysis is available here! </a>
+</p>
 
   <div class="row">
     <div class = "8u 12u$(medium)">
@@ -174,7 +176,7 @@ data cohort into sub-groups.<br> </p>
       </thead>
       <tbody>
         <tr>
-         <td style="text-align:left;"> Resection margin </td>
+         <td style="text-align:left;"> Resection Margin </td>
          <td style="text-align:left;"> Negative </td>
          <td style="text-align:left;"> -0.15 (-0.32, 0.02) </td>
          <td style="text-align:left;"> 848.69 (837, 866.55) </td>
@@ -186,7 +188,7 @@ data cohort into sub-groups.<br> </p>
          <td style="text-align:left;"> 445.8 (437.3, 459.7) </td>
         </tr>
         <tr>
-         <td style="text-align:left;"> Lymph nodes </td>
+         <td style="text-align:left;"> Lymph Nodes </td>
          <td style="text-align:left;"> Negative </td>
          <td style="text-align:left;"> -0.80 (-1.182, -0.446) </td>
          <td style="text-align:left;"> 203.6 (198.3, 213.2) </td>
@@ -198,7 +200,7 @@ data cohort into sub-groups.<br> </p>
          <td style="text-align:left;"> 1106.7 (1088,1137)  </td>
         </tr>
         <tr>
-         <td style="text-align:left;"> Tumour differentiation </td>
+         <td style="text-align:left;"> Tumour Differentiation Status </td>
          <td style="text-align:left;"> Poor </td>
          <td style="text-align:left;"> -1.210 (-1.599, -0.848) </td>
          <td style="text-align:left;"> 149 (144.9, 157.6)</td>
@@ -224,7 +226,7 @@ data cohort into sub-groups.<br> </p>
 </body>
 </div>
 
-<div class = "box">
+<div class = "box" style="background-color:#856088;">
 <h2 id="conclusion"> Conclusions </h2>
 <p>
 CFMs can be used to predict and compare patient level outcomes. <br>
@@ -242,7 +244,7 @@ in the data cohort.
 </div>
 
 
-<div class="box">
+<div class="box" style="background-color:#5d3954;">
 <h1 id="valid"> References </h1> 
 <p>
 Details on the ESPAC-4 trial from which the data cohort were taken from can be found at: <br>
@@ -250,7 +252,7 @@ Neoptolemos, J.P. et al. (2017) ‘Comparison of adjuvant gemcitabine and capeci
 </p>
 <p>
 Details on the gem model can be found
-<a href="https://richjjackson.github.io/mecPortal//models/pdac_gem.html">here</a>
+<a href="../models/pdac_gem.html">here</a>
 </p>
 </div>
 
