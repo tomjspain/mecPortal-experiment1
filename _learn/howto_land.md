@@ -4,7 +4,7 @@ title:  "How To Use Model Estimated Controls"
 date: 2025-03-12
 categories: [methods]
 description: How do Model Estimated Controls work?
-image: assets/images/modelPlane.jpg
+image: assets/images/geometry.jpg
 ---
 
 
@@ -18,7 +18,7 @@ image: assets/images/modelPlane.jpg
 
 	<section>
 		<a href="howto_surv.html" class="image">
-			<img src="{% link assets/images/modelPlane.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/cubes.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -35,7 +35,7 @@ image: assets/images/modelPlane.jpg
 	
 	<section>
 		<a href="howto_glm.html" class="image">
-			<img src="{% link assets/images/code.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/spiral.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
