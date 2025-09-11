@@ -20,7 +20,7 @@ Details on Model Estimated Controls as a tool for Causal Inference
 
 	<section>
 		<a href="causal_psc.html" class="image">
-			<img src="{% link assets/images/modelPlane.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/web.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -37,7 +37,7 @@ Details on Model Estimated Controls as a tool for Causal Inference
 	
 	<section>
 		<a href="causal_psc_rct.html" class="image">
-			<img src="{% link assets/images/code.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/structuredna.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -54,7 +54,7 @@ Details on Model Estimated Controls as a tool for Causal Inference
 	
 		<section>
 		<a href="causal_psc_gg.html" class="image">
-			<img src="{% link assets/images/code.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/linesbrown.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
