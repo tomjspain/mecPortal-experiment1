@@ -4,7 +4,7 @@ title:  "Software for Model Estimated Controls"
 date: 2025-03-12
 categories: [methods]
 description: Get the tools you need to use Model Estimated Controls
-image: assets/images/modelPlane.jpg
+image: assets/images/technology.jpg
 ---
 
 
@@ -20,7 +20,7 @@ image: assets/images/modelPlane.jpg
 
 	<section>
 		<a href="software_psc.html" class="image">
-			<img src="{% link assets/images/modelPlane.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/whitebox.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -37,7 +37,7 @@ image: assets/images/modelPlane.jpg
 	
 	<section>
 		<a href="software_pscExtra.html" class="image">
-			<img src="{% link assets/images/code.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/whitelines.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
