@@ -489,7 +489,7 @@ quantiles used for internal validation.
       </tr>
       <tr>
        <td style="text-align:left;"> Slope </td>
-       <td style="text-align:left;">  0.544 (0.12) </td>
+       <td style="text-align:left;">  0.290 (0.11) </td>
       </tr>
       <tr>
        <td style="text-align:left;"> Somers' D </td>
@@ -512,18 +512,18 @@ quantiles used for internal validation.
 <tbody>
   <tr>
    <td style="text-align:left;"> Risk Group 2 </td>
-   <td style="text-align:left;"> 0.28 </td>
-   <td style="text-align:left;"> 1.33 (0.92-1.91) </td>
+   <td style="text-align:left;"> 0.26 (0.16)</td>
+   <td style="text-align:left;"> 1.30 (0.95-1.78) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Risk Group 3 </td>
-   <td style="text-align:left;"> 0.43 </td>
-   <td style="text-align:left;"> 1.54 (1.06-2.23) </td>
+   <td style="text-align:left;"> 0.25 (0.18)</td>
+   <td style="text-align:left;"> 1.29 (0.91-1.82) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Risk Group 4 </td>
-   <td style="text-align:left;"> 0.99 </td>
-   <td style="text-align:left;"> 2.7 (1.69-4.33) </td>
+   <td style="text-align:left;"> 0.83 (0.24)</td>
+   <td style="text-align:left;"> 2.3 (1.45-3.65) </td>
   </tr>
 </tbody>
 </table>      
@@ -587,10 +587,10 @@ Find out how
 <p> 
 Details on the trial which provided the data for this model can be found at: <br>
 
-&nbsp;Neoptolemos JP, Stocken DD, Bassi C, et al. Adjuvant Chemotherapy With 
-Fluorouracil Plus Folinic Acid vs Gemcitabine Following &nbsp;Pancreatic Cancer 
+
+<a href = "https://jamanetwork.com/journals/jama/fullarticle/186548" > Neoptolemos JP, Stocken DD, Bassi C, et al. Adjuvant Chemotherapy With 
+Fluorouracil Plus Folinic Acid vs Gemcitabine Following Pancreatic Cancer 
 Resection: A Randomized Controlled Trial. JAMA. 2010;304(10):1073–1081. 
-doi:10.1001/jama.2010.1275 <br>
-<a href = "https://jamanetwork.com/journals/jama/fullarticle/186548" > Link to paper </a>
+doi:10.1001/jama.2010.1275 <br> </a>
 </p>
 </div>

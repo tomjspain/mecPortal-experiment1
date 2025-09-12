@@ -248,7 +248,12 @@ in the data cohort.
 <h1 id="valid"> References </h1> 
 <p>
 Details on the ESPAC-4 trial from which the data cohort were taken from can be found at: <br>
-Neoptolemos, J.P. et al. (2017) ‘Comparison of adjuvant gemcitabine and capecitabine with gemcitabine monotherapy in patients with resected pancreatic cancer (ESPAC-4): a multicentre, open-label, randomised, phase 3 trial’, The Lancet (British edition), 389(10073), pp. 1011–1024. Available at: https://doi.org/10.1016/S0140-6736(16)32409-6.
+<a href="https://www.sciencedirect.com/science/article/pii/S0140673616324096?via%3Dihub">
+Neoptolemos, J.P. et al. (2017) ‘Comparison of adjuvant gemcitabine and
+capecitabine with gemcitabine monotherapy in patients with resected 
+pancreatic cancer (ESPAC-4): a multicentre, open-label,
+randomised, phase 3 trial’, The Lancet (British edition), 
+389(10073), pp. 1011–1024. </a>
 </p>
 <p>
 Details on the gem model can be found
