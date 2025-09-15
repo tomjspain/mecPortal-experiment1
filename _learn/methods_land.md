@@ -25,7 +25,7 @@ image: assets/images/green-pencil.jpg
   
   	<section>
   		<a class="image">
-  			<img src="{% link assets/images/methods_land_fig1.pdf %}" alt="" data-position="center center" />
+  			<img src="{% link assets/images/methods_land_fig1.png %}" alt="" data-position="center center" />
   		</a>
   		<div class="content">
   			<div class="inner">
@@ -41,7 +41,7 @@ image: assets/images/green-pencil.jpg
   	
   	<section>
   		<a class="image">
-  			<img src="{% link assets/images/methods_land_fig2.pdf %}" alt="" data-position="top center" />
+  			<img src="{% link assets/images/methods_land_fig2.png %}" alt="" data-position="top center" />
   		</a>
   		<div class="content">
   			<div class="inner">
@@ -68,7 +68,7 @@ image: assets/images/green-pencil.jpg
     
   	<section>
   		<a class="image">
-  			<img src="{% link assets/images/methods_land_fig3.pdf %}" alt="" data-position="center center" />
+  			<img src="{% link assets/images/methods_land_fig3.png %}" alt="" data-position="center center" />
   		</a>
   		<div class="content">
   			<div class="inner">
@@ -84,7 +84,7 @@ image: assets/images/green-pencil.jpg
   	
   	<section>
   		<a class="image">
-  			<img src="{% link assets/images/methods_land_fig4.pdf %}" alt="" data-position="top center" />
+  			<img src="{% link assets/images/methods_land_fig4.png %}" alt="" data-position="top center" />
   		</a>
   		<div class="content">
   			<div class="inner">
