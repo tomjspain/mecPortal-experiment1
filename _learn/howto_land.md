@@ -35,7 +35,7 @@ image: assets/images/geometry.jpg
 	
 	<section>
 		<a href="howto_surv.html" class="image">
-			<img src="{% link assets/images/cubes.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/sandtimer.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -52,7 +52,7 @@ image: assets/images/geometry.jpg
 	
 	<section>
 		<a href="howto_glm.html" class="image">
-			<img src="{% link assets/images/spiral.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/binary-cream.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
