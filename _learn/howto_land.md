@@ -4,7 +4,7 @@ title:  "How To Use Model Estimated Controls"
 date: 2025-03-12
 categories: [methods]
 description: How do Model Estimated Controls work?
-image: assets/images/geometry.jpg
+image: assets/images/numbers.jpg
 ---
 
 
