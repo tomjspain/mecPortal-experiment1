@@ -16,6 +16,23 @@ image: assets/images/geometry.jpg
 <!-- Two -->
 <section id="two" class="spotlights">
 
+  	<section>
+		<a href="howto_formatData.html" class="image">
+			<img src="{% link assets/images/key-drawer.jpg %}" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3> Format Data for MECs </h3>
+				</header>
+				<p> Learn how to format your data when using Model Estimated Controls </p>
+				<ul class="actions">
+					<li><a href="howto_formatData.html" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	
 	<section>
 		<a href="howto_surv.html" class="image">
 			<img src="{% link assets/images/cubes.jpg %}" alt="" data-position="center center" />
