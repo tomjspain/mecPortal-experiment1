@@ -81,7 +81,7 @@ nav-menu: true
 
 	<section>
 		<a href="learn/causal_land.html" class="image">
-			<img src="{% link assets/images/domino.jpg %}" alt="" data-position="25% 25%" />
+			<img src="{% link assets/images/domino-white.jpg %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
