@@ -51,7 +51,7 @@ centers in Europe, Australasia, Japan, and Canada
     		histological confirmation and with no evidence of malignant ascites, 
     		peritoneal metastasis, or spread to the liver or other distant abdominal 
     		or extra-abdominal organs. Patients had to be fully recovered from the 
-    		operation, with a World Health Organization performance score of 2 or 
+    		operation, with a World Health Organization (WHO) performance score of 2 or 
     		lower and a life expectancy of more than 3 months.
     		</p>
     		<p>
@@ -126,25 +126,13 @@ Median Overall Survival (95% CI) was 22.8 (21.2 - 27.2) months.
       <table>
  <thead>
   <tr>
-   <th style="text-align:left;"> Covariate </th>
+   <th style="text-align:left;">  </th>
    <th style="text-align:left;"> N = 339 </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> <b>Resection Margin</b> </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;">  &nbsp;&nbsp;Negative </td>
-   <td style="text-align:left;"> 206 (61%) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> &nbsp;&nbsp;&nbsp;Positive </td>
-   <td style="text-align:left;"> 133 (39%) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> <b>Tumour differentiation</b> </td>
+   <td style="text-align:left;"> <b>Tumour Differentiation Status</b> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -249,69 +237,64 @@ was constructed and single terms removed in an itterative fashion.  </p>
 
   <div class="modelTable">
   	
-    <table>
+<table>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
-   <th style="text-align:left;"> Est (se) </th>
+   <th style="text-align:left;"> est (se) </th>
    <th style="text-align:left;"> HR (95% CI) </th>
   </tr>
  </thead>
 <tbody>
   <tr>
    <td style="text-align:left;"> &gamma;<sub>0</sub> </td>
-   <td style="text-align:left;"> -11.38 (1.56) </td>
-   <td style="text-align:left;">  0 (0 - 0) </td>
+   <td style="text-align:left;"> -11.34 (1.56) </td>
+   <td style="text-align:left;"> 0 (0 - 0) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;<sub>1</sub> </td>
    <td style="text-align:left;"> 3.84 (0.79) </td>
-   <td style="text-align:left;"> 46.34 (9.86 - 217.7) </td>
+   <td style="text-align:left;"> 46.58 (9.9 - 219.04) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;<sub>2</sub> </td>
-   <td style="text-align:left;"> 1.29 (2.22) </td>
-   <td style="text-align:left;"> 3.64 (0.05 - 284.34) </td>
+   <td style="text-align:left;"> 1.28 (2.22) </td>
+   <td style="text-align:left;"> 3.61 (0.05 - 280.98) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;<sub>3</sub> </td>
-   <td style="text-align:left;"> -1.32 (4.0) </td>
-   <td style="text-align:left;"> 0.27 (0 - 643.24) </td>
+   <td style="text-align:left;"> -1.28 (3.96) </td>
+   <td style="text-align:left;"> 0.28 (0 - 658.74) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;<sub>4</sub> </td>
-   <td style="text-align:left;"> 1.12 (3.55) </td>
-   <td style="text-align:left;"> 3.06 (0 - 3229.93) </td>
+   <td style="text-align:left;"> 1.1 (3.55) </td>
+   <td style="text-align:left;"> 3.02 (0 - 3139.81) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;<sub>5</sub> </td>
-   <td style="text-align:left;"> -0.89 (2.22) </td>
-   <td style="text-align:left;"> 0.41 (0.01 - 31.87) </td>
+   <td style="text-align:left;"> -0.96 (2.22) </td>
+   <td style="text-align:left;"> 0.38 (0 - 29.45) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> &gamma;<sub>6</sub> </td>
-   <td style="text-align:left;"> 0.34 (0.81) </td>
-   <td style="text-align:left;"> 1.4 (0.28 - 6.89) </td>
+   <td style="text-align:left;"> 0.4 (0.81) </td>
+   <td style="text-align:left;"> 1.5 (0.31 - 7.32) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Lymph Nodes: Positive Vs Negative </td>
-   <td style="text-align:left;"> 0.49 (0.15) </td>
-   <td style="text-align:left;"> 1.63 (1.21 - 2.19) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Resection Margin: Positive Vs Negative </td>
-   <td style="text-align:left;"> 0.18 (0.13) </td>
-   <td style="text-align:left;"> 1.20 (0.94 - 1.53) </td>
+   <td style="text-align:left;"> 0.51 (0.15) </td>
+   <td style="text-align:left;"> 1.66 (1.24 - 2.23) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Tumour Differentiation Status: Moderate Vs Poor </td>
-   <td style="text-align:left;"> -0.42 (0.14) </td>
-   <td style="text-align:left;"> 0.66 (0.50 - 0.87) </td>
+   <td style="text-align:left;"> -0.41 (0.14) </td>
+   <td style="text-align:left;"> 0.66 (0.5 - 0.87) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Tumour Differentiation Status: Well Vs Poor </td>
-   <td style="text-align:left;"> -0.59 (0.22) </td>
-   <td style="text-align:left;"> 0.55 (0.36 - 0.86) </td>
+   <td style="text-align:left;"> -0.57 (0.22) </td>
+   <td style="text-align:left;"> 0.57 (0.37 - 0.88) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> log(Post-Operative CA19-9) </td>
@@ -349,21 +332,12 @@ was constructed and single terms removed in an itterative fashion.  </p>
 
 <h1 id="valid"> Validation </h1>
 
-<p> Details on the validation of the model: </p>
-
-<p>
-Internal validation is performed by assessing how well the model performs on the 
-training dataset.
-<br>
-The gemcitabine treated patients from the ESPAC-4 trial was used as an external
-validation set.
-</p>
-
 
 <h3> Validation Details </h3>
 <h4> Internal Validation </h4>
 <div class="box">
-	<p> Validation are reported in terms of Calibration, Discrimination and Somers' D.  
+	<p> Internal validation is performed by assessing how well the model performs on the 
+  training dataset. Validation are reported in terms of Calibration, Discrimination and Somers' D.  
 	Calibration is reported in terms of the Mallows C-Statistic and by regressing 
 	the fitted linear predictor against the outcome (Slope). <br>
 	
@@ -393,7 +367,7 @@ validation set.
 <tbody>
   <tr>
    <td style="text-align:left;"> C-Statistic </td>
-   <td style="text-align:left;"> 0.65 (0.016) </td>
+   <td style="text-align:left;"> 0.64 (0.017) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Slope </td>
@@ -401,7 +375,7 @@ validation set.
   </tr>
   <tr>
    <td style="text-align:left;"> Somers' D </td>
-   <td style="text-align:left;"> 0.30 </td>
+   <td style="text-align:left;"> 0.28 </td>
   </tr>
 </tbody>
 </table>
@@ -426,18 +400,18 @@ validation set.
       </tr>
       <tr>
        <td style="text-align:left;"> Risk Group 2 </td>
-       <td style="text-align:left;"> 0.594 (0.231) </td>
-       <td style="text-align:left;"> 1.810 (1.152, 2.846) </td>
+       <td style="text-align:left;"> 0.40 (0.22) </td>
+       <td style="text-align:left;"> 1.50 (0.96, 2.32) </td>
       </tr>
       <tr>
        <td style="text-align:left;"> Risk Group 3 </td>
-       <td style="text-align:left;"> 1.167 (0.227) </td>
-       <td style="text-align:left;"> 3.213 (2.060, 5.012) </td>
+       <td style="text-align:left;"> 0.96 (0.22) </td>
+       <td style="text-align:left;"> 2.62 (1.71, 4.03) </td>
       </tr>
       <tr>
        <td style="text-align:left;"> Risk Group 4 </td>
-       <td style="text-align:left;"> 1.856 (0.185) </td>
-       <td style="text-align:left;"> 6.395 (3.874, 10.558) </td>
+       <td style="text-align:left;"> 1.67 (0.25) </td>
+       <td style="text-align:left;"> 5.30 (3.25, 8.64) </td>
       </tr>
     </tbody>
     </table>
@@ -485,15 +459,15 @@ quantiles used for internal validation.
     <tbody>
       <tr>
        <td style="text-align:left;"> C-Statistic </td>
-       <td style="text-align:left;"> 0.59 (0.018) </td>
+       <td style="text-align:left;"> 0.60 (0.018) </td>
       </tr>
       <tr>
        <td style="text-align:left;"> Slope </td>
-       <td style="text-align:left;">  0.290 (0.11) </td>
+       <td style="text-align:left;">  0.63 (0.13) </td>
       </tr>
       <tr>
        <td style="text-align:left;"> Somers' D </td>
-       <td style="text-align:left;"> 0.17 </td>
+       <td style="text-align:left;"> 0.19 </td>
       </tr>
     </tbody>
     </table>
@@ -505,25 +479,25 @@ quantiles used for internal validation.
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
-   <th style="text-align:left;"> Est (se) </th>
+   <th style="text-align:left;"> est (se) </th>
    <th style="text-align:left;"> HR (95% CI) </th>
   </tr>
  </thead>
 <tbody>
   <tr>
    <td style="text-align:left;"> Risk Group 2 </td>
-   <td style="text-align:left;"> 0.26 (0.16)</td>
-   <td style="text-align:left;"> 1.30 (0.95-1.78) </td>
+   <td style="text-align:left;"> 0.37 (0.18)</td>
+   <td style="text-align:left;"> 1.46 (1.02-2.08) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Risk Group 3 </td>
-   <td style="text-align:left;"> 0.25 (0.18)</td>
-   <td style="text-align:left;"> 1.29 (0.91-1.82) </td>
+   <td style="text-align:left;"> 0.46 (0.19)</td>
+   <td style="text-align:left;"> 1.59 (1.11-2.30) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Risk Group 4 </td>
-   <td style="text-align:left;"> 0.83 (0.24)</td>
-   <td style="text-align:left;"> 2.3 (1.45-3.65) </td>
+   <td style="text-align:left;"> 1.44 (0.24)</td>
+   <td style="text-align:left;"> 4.22 (2.66-6.71) </td>
   </tr>
 </tbody>
 </table>      
@@ -556,23 +530,41 @@ quantiles used for internal validation.
 
 <h1 id="valid"> Use this model </h1>
 
-<p> 
-This model is available to download 
-<a href = "https://github.com/richJJackson/pscRepository/tree/main/Models/PDAC/Gem_model"> here </a>
-</p>
+<div class="row">
+<div class="4u 12u$(medium)">
+  <div class="box">
+    <p> 
+    This model is available to download 
+    <ul class="actions">
+      <li><a href="https://github.com/richJJackson/pscRepository/tree/main/Models/PDAC/Gem_model" class="button special">Download</a></li>
+    </ul>
+    </p>
+  </div>
+</div>
 
-<p>
-Find out more about how models are stored/shared and how you can use them 
-<a href= "https://github.com/richJJackson/pscRepository/tree/main/Models"> here </a>
-</p>
+<div class="4u 12u$(medium)">
+  <div class="box">
+    <p>
+    Find out more about how models are stored/shared and how you can use them 
+    <ul class="actions">
+      <li><a href="https://github.com/richJJackson/pscRepository/tree/main/Models" class="button special">Models</a></li>
+    </ul>
+    </p>
+  </div>
+</div>
 
+<div class="4u 12u$(medium)">
+  <div class="box">
+    <p>
+    This model has been used to compare the combined therapy GemCap against Gem. 
+    <ul class="actions">
+      <li><a href="https://github.com/richJJackson/pscRepository/blob/main/Applications/Gem_vs_GemCap/gem_vs_gemcap.R" class="button special">Find out how</a></li>
+    </ul>
+    </p>
+  </div>
+</div>
 
-<p>
-This model has been used to compare the combined therapy GemCap against Gem. 
-Find out how 
-<a href = "https://github.com/richJJackson/pscRepository/blob/main/Applications/Gem_vs_GemCap/gem_vs_gemcap.R"> here </a>
-</p>
-
+</div>
 </div>
 
 
