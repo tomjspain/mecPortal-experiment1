@@ -19,7 +19,7 @@ image: assets/images/technology.jpg
 <section id="two" class="spotlights">
 
 	<section>
-		<a href="software_psc.html" class="image">
+		<a href="software_package.html" class="image">
 			<img src="{% link assets/images/whitebox.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">

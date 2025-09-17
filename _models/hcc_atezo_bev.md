@@ -95,13 +95,13 @@ event and 250 (55%) did not. The median overall survival (95% CI) was
       <table>
  <thead>
   <tr>
-   <th style="text-align:left;"> Covariate </th>
+   <th style="text-align:left;"> </th>
    <th style="text-align:left;"> N = 454 </th>
   </tr>
  </thead>
 <tbody>
       <tr>
-       <td style="text-align:left;"> ECOG Score</td>
+       <td style="text-align:left;"> <b>Eastern Cooperative Oncology Group Score</b></td>
        <td style="text-align:left;"> </td>
       </tr>
       <tr>
@@ -117,7 +117,7 @@ event and 250 (55%) did not. The median overall survival (95% CI) was
        <td style="text-align:left;"> 25 (5.5%) </td>
       </tr>
       <tr>
-       <td style="text-align:left;"> Extra-hepatic Spread </td>
+       <td style="text-align:left;"> <b>Extrahepatic Spread</b> </td>
        <td style="text-align:left;">  </td>
       </tr>
       <tr>
@@ -129,23 +129,23 @@ event and 250 (55%) did not. The median overall survival (95% CI) was
        <td style="text-align:left;"> 290 (64%) </td>
       </tr>
       <tr>
-       <td style="text-align:left;"> Bilirubin </td>
+       <td style="text-align:left;"> <b>Bilirubin</b> </td>
        <td style="text-align:left;"> 1.13 (0.95, 1.34) </td>
       </tr>
       <tr>
-       <td style="text-align:left;"> Tumour Size </td>
+       <td style="text-align:left;"> <b>Tumour Size</b> </td>
        <td style="text-align:left;"> 7.35 (5.57, 9.64) </td>
       </tr>
       <tr>
-       <td style="text-align:left;"> Age </td>
+       <td style="text-align:left;"> <b>Age</b> </td>
        <td style="text-align:left;"> 68 (62,74) </td>
       </tr>
       <tr>
-       <td style="text-align:left;"> Albumin </td>
+       <td style="text-align:left;"> <b>Albumin</b> </td>
        <td style="text-align:left;"> 3.80 (3.40,4.20) </td>
       </tr>
       <tr>
-       <td style="text-align:left;"> AFP </td>
+       <td style="text-align:left;"> <b>AFP</b> </td>
        <td style="text-align:left;"> 2.70 (1.79,3.76) </td>
       </tr>
 </tbody>
@@ -264,7 +264,7 @@ knots were chosen and were placed at the timepoints 3, 6 12, and 24 months.
    <td style="text-align:right;"> 1.81 (0.981 - 3.333) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> EHS Pos </td>
+   <td style="text-align:left;"> Extrahepatic Spread: Positive Vs Negative </td>
    <td style="text-align:right;"> 0.52 (0.15) </td>
    <td style="text-align:right;"> 1.68 (1.248 - 2.251) </td>
   </tr>
@@ -435,9 +435,18 @@ knots were chosen and were placed at the timepoints 3, 6 12, and 24 months.
 
 <h1 id="valid"> Use this model </h1>
 
-
-Download this model and learn how to use it by visiting 
-github/richJJackson/pscLibrary/test_model
+<div class="row">
+  <div class="5u 12u$(medium)">
+    <div class="box">
+    <p>
+      Download this model and learn how to use it by visiting
+        <ul class="actions">
+          <li><a href= "github/richJJackson/pscLibrary/test_model" class="button special">Download</a> </li>
+        </ul>
+    </p>
+    </div>
+  </div>
+</div>
 
 </div>
 
