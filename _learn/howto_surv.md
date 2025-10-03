@@ -39,9 +39,9 @@ description: How do Model Estimated Controls work?
 <p>We will implement MECs using the ‘psc’ package which specifically allows for the comparison of patient groups treated with an experimental treatment against a counterfactual model (CFM).</p>
 <p>Load necessary packages:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(psc)</span>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(psc)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(survival)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggpubr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggpubr)</span></code></pre></div>
 </div>
 </section>
 </div>
@@ -52,12 +52,12 @@ description: How do Model Estimated Controls work?
 <p>In this example, we will look at survival outcomes in patients with pancreatic cancer from the ESPAC (European Study for Pancreatic Cancer)-4 trial and compare how the survival of patients differs with two different treatments:<a href="../applications/gem_gemcap_pdac.html" > GEM Vs. GEMCAP… </a></p>
 <p>Load the model that will act as the control treatment (CFM). This model is a flexible parametric model.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">&quot;flsm.R&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">&quot;flsm.R&quot;</span>)</span></code></pre></div>
 </div>
 <p>Now that we have our control treatment, monotherapy gemcitabine (GEM), we will load the ESPAC-4 dataset. ESPAC-4 consists of patients that have been treated with the experimental treatment, adjuvant gemcitabine and capecitabine, GEMCAP.</p>
 <p>Our aim is to compare the patients treated with GEMCAP in the ESPAC-4 dataset against the GEM model to determine which of the treatments is more effective.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">&quot;espac4gemcap.R&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">&quot;espac4gemcap.R&quot;</span>)</span></code></pre></div>
 </div>
 </section>
 </div>
@@ -66,11 +66,11 @@ description: How do Model Estimated Controls work?
 <h2 class="anchored" data-anchor-id="fit-counterfactual-model">Fit counterfactual model :)</h2>
 <p>We can turn the flexible parametric model into a CFM using the pscCFM() function:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>cfm <span class="ot">&lt;-</span> <span class="fu">pscCFM</span>(flsm)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>cfm <span class="ot">&lt;-</span> <span class="fu">pscCFM</span>(flsm)</span></code></pre></div>
 </div>
 <p>It is possible to visualise and summarise the data that was used to fit this model with the built in functions within pscCFM():</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>cfm<span class="sc">$</span>datasumm<span class="sc">$</span>summ_Table</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>cfm<span class="sc">$</span>datasumm<span class="sc">$</span>summ_Table</span></code></pre></div>
 <div class="cell-output-display">
 <div id="xlusyojlhm" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>#xlusyojlhm table {
@@ -538,7 +538,7 @@ height: 0px !important;
 
 </div>
 </div>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggarrange</span>(<span class="at">plotlist =</span> cfm<span class="sc">$</span>datavis, <span class="at">ncol =</span> <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggarrange</span>(<span class="at">plotlist =</span> cfm<span class="sc">$</span>datavis, <span class="at">ncol =</span> <span class="dv">2</span>)</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>$`1`</code></pre>
 </div>
@@ -573,11 +573,11 @@ attr(,&quot;class&quot;)
 <h2 class="anchored" data-anchor-id="make-comparison">Make comparison!</h2>
 <p>The CFM can be compared against the ESPAC-4 data cohort. The comparison will be carried out using the pscfcit() function.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>psc <span class="ot">&lt;-</span> <span class="fu">pscfit</span>(cfm, espac4_gemcap)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>psc <span class="ot">&lt;-</span> <span class="fu">pscfit</span>(cfm, espac4_gemcap)</span></code></pre></div>
 </div>
 <p>The plot below visualises the effect of each treatment on ESPAC-4 patients. The pink line represents the model’s predicted survival estimates (if the ESPAC-4 patients had been treated with GEM) and the orange line represents the data cohort’s observed survival estimates.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(psc)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(psc)</span></code></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -589,7 +589,7 @@ attr(,&quot;class&quot;)
 <p>The summary of the model can be obtained using the generic summary() function to show the posterior density. The posterior estimates of the deviance information criterion (DIC) and the efficacy parameter, <span class="math inline">&beta;</span>, are calculated and shown.</p>
 <p><span class="math inline">&beta;</span> is a measurement of the distance between the observed data and the model estimate. The 2.5 and 97.5% quantiles are also given. The odds ratio comparing the experimental treatment to the control can be calculated as exp(<span class="math inline">&beta;</span>), in this case exp(-0.466452).</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(psc)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(psc)</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Summary: 
  
@@ -620,8 +620,8 @@ DIC   1320.7933  1297.5917  1355.0851         NA         NA</code></pre>
 </div>
 <p>We can extract the posterior distribution of the ‘psc’ and can view its autocorrelation and trace</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>posterior <span class="ot">&lt;-</span> psc<span class="sc">$</span>posterior</span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(posterior[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>,])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>posterior <span class="ot">&lt;-</span> psc<span class="sc">$</span>posterior</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(posterior[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>,])</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>     gamma0   gamma1   gamma2    gamma3    gamma4     gamma5     gamma6
 1 -11.38080 3.835982 1.291162 -1.317656 1.1190182 -0.8876277  0.3372484
@@ -636,8 +636,8 @@ DIC   1320.7933  1297.5917  1355.0851         NA         NA</code></pre>
 2 1310.674
 3 1314.744</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># autocorrelation</span></span>
-<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="fu">acf</span>(posterior<span class="sc">$</span>beta)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># autocorrelation</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="fu">acf</span>(posterior<span class="sc">$</span>beta)</span></code></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -645,8 +645,8 @@ DIC   1320.7933  1297.5917  1355.0851         NA         NA</code></pre>
 </figure>
 </div>
 </div>
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># trace</span></span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(posterior<span class="sc">$</span>beta, <span class="at">type =</span> <span class="st">&#39;s&#39;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># trace</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(posterior<span class="sc">$</span>beta, <span class="at">type =</span> <span class="st">&#39;s&#39;</span>)</span></code></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">

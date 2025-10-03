@@ -29,6 +29,23 @@ nav-menu: true
 <section id="two" class="spotlights">
 
 	<section>
+		<a href="learn/manu_land.html" class="image">
+			<img src="{% link assets/images/paper.jpg %}" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3> Manuscript </h3>
+				</header>
+				<p>Access the published manuscript about Personalised Synthetic Controls </p>
+				<ul class="actions">
+					<li><a href="https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-025-02540-2" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section>
 		<a href="learn/methods_land.html" class="image">
 			<img src="{% link assets/images/model-of-city.jpg %}" alt="" data-position="center center" />
 		</a>
