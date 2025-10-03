@@ -13,6 +13,12 @@ response of monotherapy gemcitabine (GEM) (control treatment). A counterfactual
 model (CFM) is used to estimate the expected response of patients
 had they been treated with GEM. </p>
 
+<div>
+  <ul class="actions">
+      <li><a href="../models/pdac_gem.html" class="button special">GEM model</a></li>
+  </ul>
+</div>
+
 <div class="box" style="background-color:#8878c3;">
 
 <h2 id="sett">Data</h2>
@@ -67,7 +73,7 @@ with resected pancreatic ductal adenocarcinoma. </p>
 <h2 id="desc"> Description of model </h2>
 <h3 id="cfm"> Gemcitabine CFM </h3>
 <p>
-The GEM CFM model was used to generate counterfactual evidence had the ESPAC-4 data
+The GEM CFM model (developed on the ESPAC-3 data) was used to generate counterfactual evidence had the ESPAC-4 data
 cohort been treated with GEM. The actual observed response of patients treated
 with GEMCAP were then compared against the model's expected response of the 
 data cohort.
@@ -75,8 +81,8 @@ data cohort.
 
 
 <p>
-The GEM model and the details of the data used to build the model can be found here: 
-<a href="../models/pdac_gem.html">Visit GEM model</a>
+The GEM model and the details of the data used to build the model can be found 
+<a href="../models/pdac_gem.html">here</a>
 </p>
 
 
@@ -84,25 +90,39 @@ The GEM model and the details of the data used to build the model can be found h
 
 <div class = "box" style="background-color:#796878;">
 <h2 id="Analysis"> Analysis </h2>
+<p> 
+A counterfactual model and a data cohort were used to make a comparison of treatment
+efficacy.
+</p>
 <body>
+
 <div class="row">
-  <div class="5u 12u$(medium)">
-    <!-- Image -->
-    <h4> Comparison </h4>
-    <p> 
-    The average expected survival estimate of the CFM (control treatment -GEM) and the
+
+  <div class="6u 12u$(medium)">
+  <div class="box">
+  <h4> GEM Vs GEMCAP </h4>
+  <p>
+    The average expected survival estimate of the CFM (control treatment- GEM) and the
     average observed survival estimate of the GEMCAP patients is shown below to 
-    visualise the comparison of the GEM CFM (pink) vs GEMCAP treatment (orange). <br>
-    </p>
-    <span class="image fit">
-      <img src="{% link assets/images/e3gem_vs_e4gemcap.png %}" alt="" />
-    </span>
-    <!-- End Image -->
+    visualise the comparison of GEM treatment (pink) vs GEMCAP treatment (orange).
+  </p>    
+  <!-- Image -->
+    <span class="image fit"><img src="{% link assets/images/e3gem_vs_e4gemcap.png %}" alt="" /></span>
+  <!-- End Image -->
+  
+  
+    
+  </div>
   </div>
   
-  <div class="5u 12u$(medium)">
+  <div class="6u 12u$(medium)">
     <div class="box">
-
+    <h4> Estimates of the efficacy parameter for the overall comparison of GEM Vs GEMCAP </h4>
+    <p>
+    The efficacy parameter (&beta;) measures the distance between the observed data and the 
+    model's estimate. 
+    Here, a median value (2.5%, 97.5% quantiles) of -0.47 (-0.60,-0.34) is obtained for &beta;
+    </p>
       <div class="table-wrapper">
         <table>
           <thead>
@@ -136,16 +156,15 @@ The GEM model and the details of the data used to build the model can be found h
     </div>
   </div>
   <div class="5u 12u$(medium)">
-    <div class="box">
-    <p>
+  <h4></h4>
+  <p>
     The predicted survival probability for ESPAC-4 patients treated with GEM 
     is less than the observed survival probability of ESPAC-4 patients treated
     with GEMCAP, demonstrating that combination therapy GEMCAP has greater 
     efficacy than monotherapy GEM.
-    </p> <br>
-    &beta; is the efficacy parameter which measures the distance between the actual 
-    observed data and the model's estimates.
-    </div>
+    The survival estimates are obtained by multiplying the cumulative baseline
+    hazard function by the mean of the linear predictor.
+  </p>
   </div>
 </div>
 </body>
@@ -156,11 +175,17 @@ The GEM model and the details of the data used to build the model can be found h
 <div class = "box" style="background-color:#b784a7;">
 <h2 id="Sub-group"> Sub-group analysis </h2>
 <body>
-<p>
-Sub-group effects are investigated by subsetting the observed 
-data cohort into sub-groups.<br> 
+
+<div class="box">
+The comparison of treatment efficacy can also be estimated within individual subgroups.
+Sub-group analyses is carried out by filtering for a specific sub-group of patients from
+the population (e.g., only patients that have poor tumour differentiation). A comparison
+is then made on the sub-group of patients.
 <a href="https://github.com/kusqaum/PDAC/blob/main/gem_vs_gemcap.R"> Code for the sub-group analysis is available here! </a>
-</p>
+
+</div>
+
+
 
   <div class="row">
     <div class = "8u 12u$(medium)">
@@ -221,7 +246,9 @@ data cohort into sub-groups.<br>
       </table>
       </div>
     </div>
-    
+    <p>
+    The results of sub-grou analyses show that survival estimates between 2 groups are different
+    </p>
   </div>
 </body>
 </div>
