@@ -177,7 +177,7 @@ efficacy.
 <body>
 
 <div class="box">
-The comparison of treatment efficacy can also be estimated within individual subgroups.
+The comparison of treatment efficacy can also be estimated within individual sub-groups.
 Sub-group analyses is carried out by filtering for a specific sub-group of patients from
 the population (e.g., only patients that have poor tumour differentiation). A comparison
 is then made on the sub-group of patients.
@@ -185,71 +185,28 @@ is then made on the sub-group of patients.
 
 </div>
 
+ <div class="row">
+  <div class="8u 12u$(medium)">
+    
+      <!--Image-->
+      <span class="image fit"><img src="{% link assets/images/sub-group_forest.png %}" alt="" /></span>
+      <!--End image-->
 
-
-  <div class="row">
-    <div class = "8u 12u$(medium)">
-      <div class ="box">
-      <table>
-      <thead>
-        <tr>
-         <th style="text-align:left;"> Characteristic </th>
-         <th style="text-align:left;"> Level </th>
-         <th style="text-align:left;"> &beta; (2.5%, 7.5%) </th>
-         <th style="text-align:left;"> DIC (2.5%, 97.5%) </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-         <td style="text-align:left;"> Resection Margin </td>
-         <td style="text-align:left;"> Negative </td>
-         <td style="text-align:left;"> -0.15 (-0.32, 0.02) </td>
-         <td style="text-align:left;"> 848.69 (837, 866.55) </td>
-        </tr>
-        <tr>
-         <td style="text-align:left;">  </td>
-         <td style="text-align:left;"> Positive </td>
-         <td style="text-align:left;"> -0.74 (-0.961, -0.507) </td>
-         <td style="text-align:left;"> 445.8 (437.3, 459.7) </td>
-        </tr>
-        <tr>
-         <td style="text-align:left;"> Lymph Nodes </td>
-         <td style="text-align:left;"> Negative </td>
-         <td style="text-align:left;"> -0.80 (-1.182, -0.446) </td>
-         <td style="text-align:left;"> 203.6 (198.3, 213.2) </td>
-        </tr>
-        <tr>
-         <td style="text-align:left;"> </td>
-         <td style="text-align:left;"> Positive </td>
-         <td style="text-align:left;"> 0.086 (-0.090, 0.271) </td>
-         <td style="text-align:left;"> 1106.7 (1088,1137)  </td>
-        </tr>
-        <tr>
-         <td style="text-align:left;"> Tumour Differentiation Status </td>
-         <td style="text-align:left;"> Poor </td>
-         <td style="text-align:left;"> -1.210 (-1.599, -0.848) </td>
-         <td style="text-align:left;"> 149 (144.9, 157.6)</td>
-        </tr>
-        <tr>
-         <td style="text-align:left;">  </td>
-         <td style="text-align:left;"> Moderate </td>
-         <td style="text-align:left;"> -0.88 (-1.087, -0.681) </td>
-         <td style="text-align:left;"> 773 (760.8, 793.5)  </td>
-        </tr>
-        <tr>
-         <td style="text-align:left;">  </td>
-         <td style="text-align:left;"> Well </td>
-         <td style="text-align:left;"> -0.54 (-0.80, -0.288) </td>
-         <td style="text-align:left;"> 361 (355.3, 372.1)  </td>
-        </tr>
-      </tbody>
-      </table>
-      </div>
-    </div>
-    <p>
-    The results of sub-grou analyses show that survival estimates between 2 groups are different
-    </p>
   </div>
+  <div class="5u 12u$(medium)">
+    <div class="box">
+      <p>
+      Treatment efficacy can be compared within individual sub-groups.
+      The estimated efficacy parameters (&beta;) (95% CI) are visualised using
+      forest plots. 
+      The results of the sub-group analyses show that survival estimates
+      differ between sub-groups. For example the negative resection margin 
+      group has a higher observed &beta; than the positive resection margin group.
+      </p>
+    </div>  
+  </div>
+ </div>
+ 
 </body>
 </div>
 
