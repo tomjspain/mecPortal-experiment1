@@ -185,7 +185,7 @@ is then made on the sub-group of patients.
 
 </div>
 
- <div class="row">
+<div class="row">
   <div class="8u 12u$(medium)">
     
       <!--Image-->
@@ -193,7 +193,7 @@ is then made on the sub-group of patients.
       <!--End image-->
 
   </div>
-  <div class="5u 12u$(medium)">
+  <div class="4u 12u$(medium)">
     <div class="box">
       <p>
       Treatment efficacy can be compared within individual sub-groups.
@@ -205,7 +205,7 @@ is then made on the sub-group of patients.
       </p>
     </div>  
   </div>
- </div>
+</div>
  
 </body>
 </div>
