@@ -197,11 +197,12 @@ is then made on the sub-group of patients.
     <div class="box">
       <p>
       Treatment efficacy can be compared within individual sub-groups.
-      The estimated efficacy parameters (&beta;) (95% CI) are visualised using
-      forest plots. 
+      The estimated efficacy parameters (&beta;) (95% confidence intervals) 
+      are visualised using forest plots. 
       The results of the sub-group analyses show that survival estimates
       differ between sub-groups. For example the negative resection margin 
-      group has a higher observed &beta; than the positive resection margin group.
+      group has a higher observed estimated treatment efficacy than the 
+      positive resection margin group.
       </p>
     </div>  
   </div>
